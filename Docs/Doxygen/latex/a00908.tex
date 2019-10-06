@@ -1,0 +1,483 @@
+\hypertarget{a00908}{}\doxysection{Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data Class Reference}
+\label{a00908}\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+
+
+Inheritance diagram for Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00907}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00906}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override bool \mbox{\hyperlink{a00908_a19c6a511ec5f9b70d0652fb5dc541206}{Add\+Record\+To\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override bool \mbox{\hyperlink{a00908_a51f9e4816242d256bb5f9a016de6c53c}{Update\+Record\+In\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override void \mbox{\hyperlink{a00908_a10da13b8b1ef30dcb56675afd0bb6f93}{Open\+Record\+From\+Database}} (string acc\+Number, string exam\+Date, out bool test\+Conducted)
+\item 
+override bool \mbox{\hyperlink{a00908_aeef03db9a65961728358641e14f56eb9}{Delete\+Record\+From\+Database}} (string acc\+Number, string exam\+Date)
+\item 
+override void \mbox{\hyperlink{a00908_ac64beec6ae179f61acf35acd344722f6}{Initialize\+Properties}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00908_a81e13722f87e89fddad9c7f7916058d2}{Pure\+Tone\+Data}} ()
+\item 
+void \mbox{\hyperlink{a00908_a84ba91c67cd7c0dc7ef365b719684762}{Set\+Hearing\+Level}} (\mbox{\hyperlink{a00422_a7d34ae50962587ef585d26ceb633c3d7}{Ear\+Type}} ear, double freq\+Hz, string hearing\+Level)
+\item 
+string \mbox{\hyperlink{a00908_af080bc5c4e3964a305b691fbc4d6b192}{Get\+Hearing\+Level}} (\mbox{\hyperlink{a00422_a7d34ae50962587ef585d26ceb633c3d7}{Ear\+Type}} ear, double freq\+Hz)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00580}{Sub\+Tab\+Model}} \mbox{\hyperlink{a00908_a152357583905b03c2a3cdff28010e8c0}{pt\+Data\+Model}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Sorted\+Dictionary$<$ double, \mbox{\hyperlink{a00880}{Hearing\+Level}} $>$ \mbox{\hyperlink{a00908_ad076d8ecfdad051afc39e52bbc2b13e4}{Hearing\+Levels}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+\mbox{\hyperlink{a00760}{Audiogram\+Plot}} \mbox{\hyperlink{a00908_af6706e51f8871a39985df2c9e5d96b3c}{Audiogram\+Plot}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00908_a5d3f58c1cb9e2667d2d635340989faa6}{Add\+B\+C\+Freq\+Shift}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00908_add140cd6489cbfccd50bf4a48105cc68}{Has\+Rt\+Ear\+Valid\+Data}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00908_a9e7bbd1281520947132130bc584f6d97}{Has\+Lt\+Ear\+Valid\+Data}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00908_a9bee6f56bd192d064605c025839a1e29}{Show\+Rt\+Ear\+Plot}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00908_ab7f8226bcbdbbb91c8d8792482433fe5}{Show\+Lt\+Ear\+Plot}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00908_a0a0af6b7429350578b655bc76dda3e59}{Show\+Plot}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_a9d06abca79264a2523fead939c094bf9}{Rt\+Ear\+H\+Ld\+B125\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_a25b92b62b59f8eefa8394229345dc3d8}{Rt\+Ear\+H\+Ld\+B250\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_ac5e3c681f7a7dff5cb53d6ce545129cf}{Rt\+Ear\+H\+Ld\+B500\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_a01e004154330d3614f0719ada01c99c8}{Rt\+Ear\+H\+Ld\+B1000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_a47770216c817b1d755398824968bb679}{Rt\+Ear\+H\+Ld\+B2000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_a5c3de23003030bcfa3e442d5127646fa}{Rt\+Ear\+H\+Ld\+B3000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_afdad6c88f4d3d3d597865dfa9cbeee3b}{Rt\+Ear\+H\+Ld\+B4000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_a735cb4b42352dfd0265c8734a74c34a0}{Rt\+Ear\+H\+Ld\+B6000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_aa14e55f5650ede5535a00f85133c46db}{Rt\+Ear\+H\+Ld\+B8000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_a1058c7491697016453374796761bdd0b}{Lt\+Ear\+H\+Ld\+B125\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_ace93fa71760645d705ed8f573c6877ff}{Lt\+Ear\+H\+Ld\+B250\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_a960d0014689f12094250c7c88cce7be1}{Lt\+Ear\+H\+Ld\+B500\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_abe81f367bfde8711c512fe71082815c8}{Lt\+Ear\+H\+Ld\+B1000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_ad2f7379b0fa659e72e26bcbef3f80275}{Lt\+Ear\+H\+Ld\+B2000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual string \mbox{\hyperlink{a00908_aa37005bcf95f27ce8bb0116d2538c630}{Lt\+Ear\+H\+Ld\+B3000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_aed333f65ba0af606c5cc13f72838b688}{Lt\+Ear\+H\+Ld\+B4000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_a7e24c7a4a0178b304dc1508034421ace}{Lt\+Ear\+H\+Ld\+B6000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_a1d9a288693d725b411926af0e952fb1c}{Lt\+Ear\+H\+Ld\+B8000\+Hz}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00908_a97ce59181a1c0821701997e99d0dc85e}{H\+L\+Validation\+Error}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{a00908_ad6bb919620033f4485191b4b1a863274}{has\+Rt\+Ear\+Valid\+Data}}
+\item 
+bool \mbox{\hyperlink{a00908_a0ac985583dcf0b84520ec96e4995f4bf}{has\+Lt\+Ear\+Valid\+Data}}
+\item 
+bool \mbox{\hyperlink{a00908_a867128800ae5beb7c570ef6bfc505af8}{show\+Rt\+Ear\+Plot}}
+\item 
+bool \mbox{\hyperlink{a00908_a6e22512321c76239b9a2cd9b6204b189}{show\+Lt\+Ear\+Plot}}
+\item 
+bool \mbox{\hyperlink{a00908_accbfa3f7c05129df84a72d7ca3534a74}{show\+Plot}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00908_a81e13722f87e89fddad9c7f7916058d2}\label{a00908_a81e13722f87e89fddad9c7f7916058d2}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!PureToneData@{PureToneData}}
+\index{PureToneData@{PureToneData}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{PureToneData()}{PureToneData()}}
+{\footnotesize\ttfamily Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Pure\+Tone\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00908_a19c6a511ec5f9b70d0652fb5dc541206}\label{a00908_a19c6a511ec5f9b70d0652fb5dc541206}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!AddRecordToDatabase@{AddRecordToDatabase}}
+\index{AddRecordToDatabase@{AddRecordToDatabase}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{AddRecordToDatabase()}{AddRecordToDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Add\+Record\+To\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_afaac4d6923e04101bc51e0fd7452726c}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_a19c6a511ec5f9b70d0652fb5dc541206_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_a19c6a511ec5f9b70d0652fb5dc541206_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00908_aeef03db9a65961728358641e14f56eb9}\label{a00908_aeef03db9a65961728358641e14f56eb9}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!DeleteRecordFromDatabase@{DeleteRecordFromDatabase}}
+\index{DeleteRecordFromDatabase@{DeleteRecordFromDatabase}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{DeleteRecordFromDatabase()}{DeleteRecordFromDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Delete\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_afed9d71c2f678f306639f5e91f0015bc}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_aeef03db9a65961728358641e14f56eb9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_aeef03db9a65961728358641e14f56eb9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00908_af080bc5c4e3964a305b691fbc4d6b192}\label{a00908_af080bc5c4e3964a305b691fbc4d6b192}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!GetHearingLevel@{GetHearingLevel}}
+\index{GetHearingLevel@{GetHearingLevel}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{GetHearingLevel()}{GetHearingLevel()}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Get\+Hearing\+Level (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{a00422_a7d34ae50962587ef585d26ceb633c3d7}{Ear\+Type}}}]{ear,  }\item[{double}]{freq\+Hz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{a00908_ac64beec6ae179f61acf35acd344722f6}\label{a00908_ac64beec6ae179f61acf35acd344722f6}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!InitializeProperties@{InitializeProperties}}
+\index{InitializeProperties@{InitializeProperties}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{InitializeProperties()}{InitializeProperties()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Initialize\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_abdcd3eb39921332763fbf9edf68beaa9}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_ac64beec6ae179f61acf35acd344722f6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00908_a10da13b8b1ef30dcb56675afd0bb6f93}\label{a00908_a10da13b8b1ef30dcb56675afd0bb6f93}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!OpenRecordFromDatabase@{OpenRecordFromDatabase}}
+\index{OpenRecordFromDatabase@{OpenRecordFromDatabase}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{OpenRecordFromDatabase()}{OpenRecordFromDatabase()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Open\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{out bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_af6264ad245fe5e18f816b9007be974b1}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_a10da13b8b1ef30dcb56675afd0bb6f93_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_a10da13b8b1ef30dcb56675afd0bb6f93_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00908_a84ba91c67cd7c0dc7ef365b719684762}\label{a00908_a84ba91c67cd7c0dc7ef365b719684762}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!SetHearingLevel@{SetHearingLevel}}
+\index{SetHearingLevel@{SetHearingLevel}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{SetHearingLevel()}{SetHearingLevel()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Set\+Hearing\+Level (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{a00422_a7d34ae50962587ef585d26ceb633c3d7}{Ear\+Type}}}]{ear,  }\item[{double}]{freq\+Hz,  }\item[{string}]{hearing\+Level }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_a84ba91c67cd7c0dc7ef365b719684762_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00908_a51f9e4816242d256bb5f9a016de6c53c}\label{a00908_a51f9e4816242d256bb5f9a016de6c53c}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!UpdateRecordInDatabase@{UpdateRecordInDatabase}}
+\index{UpdateRecordInDatabase@{UpdateRecordInDatabase}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{UpdateRecordInDatabase()}{UpdateRecordInDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Update\+Record\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_a86f00b61115c320df7c4934901d71309}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_a51f9e4816242d256bb5f9a016de6c53c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00908_a51f9e4816242d256bb5f9a016de6c53c_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00908_a0ac985583dcf0b84520ec96e4995f4bf}\label{a00908_a0ac985583dcf0b84520ec96e4995f4bf}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!hasLtEarValidData@{hasLtEarValidData}}
+\index{hasLtEarValidData@{hasLtEarValidData}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{hasLtEarValidData}{hasLtEarValidData}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+has\+Lt\+Ear\+Valid\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00908_ad6bb919620033f4485191b4b1a863274}\label{a00908_ad6bb919620033f4485191b4b1a863274}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!hasRtEarValidData@{hasRtEarValidData}}
+\index{hasRtEarValidData@{hasRtEarValidData}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{hasRtEarValidData}{hasRtEarValidData}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+has\+Rt\+Ear\+Valid\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00908_a152357583905b03c2a3cdff28010e8c0}\label{a00908_a152357583905b03c2a3cdff28010e8c0}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!ptDataModel@{ptDataModel}}
+\index{ptDataModel@{ptDataModel}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{ptDataModel}{ptDataModel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00580}{Sub\+Tab\+Model}} Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+pt\+Data\+Model\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{a00908_a6e22512321c76239b9a2cd9b6204b189}\label{a00908_a6e22512321c76239b9a2cd9b6204b189}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!showLtEarPlot@{showLtEarPlot}}
+\index{showLtEarPlot@{showLtEarPlot}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{showLtEarPlot}{showLtEarPlot}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+show\+Lt\+Ear\+Plot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00908_accbfa3f7c05129df84a72d7ca3534a74}\label{a00908_accbfa3f7c05129df84a72d7ca3534a74}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!showPlot@{showPlot}}
+\index{showPlot@{showPlot}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{showPlot}{showPlot}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+show\+Plot\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00908_a867128800ae5beb7c570ef6bfc505af8}\label{a00908_a867128800ae5beb7c570ef6bfc505af8}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!showRtEarPlot@{showRtEarPlot}}
+\index{showRtEarPlot@{showRtEarPlot}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{showRtEarPlot}{showRtEarPlot}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+show\+Rt\+Ear\+Plot\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{a00908_a5d3f58c1cb9e2667d2d635340989faa6}\label{a00908_a5d3f58c1cb9e2667d2d635340989faa6}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!AddBCFreqShift@{AddBCFreqShift}}
+\index{AddBCFreqShift@{AddBCFreqShift}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{AddBCFreqShift}{AddBCFreqShift}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Add\+B\+C\+Freq\+Shift\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_af6706e51f8871a39985df2c9e5d96b3c}\label{a00908_af6706e51f8871a39985df2c9e5d96b3c}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!AudiogramPlot@{AudiogramPlot}}
+\index{AudiogramPlot@{AudiogramPlot}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{AudiogramPlot}{AudiogramPlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00760}{Audiogram\+Plot}} Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Audiogram\+Plot\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a9e7bbd1281520947132130bc584f6d97}\label{a00908_a9e7bbd1281520947132130bc584f6d97}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!HasLtEarValidData@{HasLtEarValidData}}
+\index{HasLtEarValidData@{HasLtEarValidData}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{HasLtEarValidData}{HasLtEarValidData}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Has\+Lt\+Ear\+Valid\+Data\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_add140cd6489cbfccd50bf4a48105cc68}\label{a00908_add140cd6489cbfccd50bf4a48105cc68}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!HasRtEarValidData@{HasRtEarValidData}}
+\index{HasRtEarValidData@{HasRtEarValidData}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{HasRtEarValidData}{HasRtEarValidData}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Has\+Rt\+Ear\+Valid\+Data\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_ad076d8ecfdad051afc39e52bbc2b13e4}\label{a00908_ad076d8ecfdad051afc39e52bbc2b13e4}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!HearingLevels@{HearingLevels}}
+\index{HearingLevels@{HearingLevels}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{HearingLevels}{HearingLevels}}
+{\footnotesize\ttfamily Sorted\+Dictionary$<$double, \mbox{\hyperlink{a00880}{Hearing\+Level}}$>$ Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Hearing\+Levels\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\mbox{\Hypertarget{a00908_a97ce59181a1c0821701997e99d0dc85e}\label{a00908_a97ce59181a1c0821701997e99d0dc85e}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!HLValidationError@{HLValidationError}}
+\index{HLValidationError@{HLValidationError}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{HLValidationError}{HLValidationError}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+H\+L\+Validation\+Error\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_abe81f367bfde8711c512fe71082815c8}\label{a00908_abe81f367bfde8711c512fe71082815c8}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB1000Hz@{LtEarHLdB1000Hz}}
+\index{LtEarHLdB1000Hz@{LtEarHLdB1000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB1000Hz}{LtEarHLdB1000Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B1000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a1058c7491697016453374796761bdd0b}\label{a00908_a1058c7491697016453374796761bdd0b}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB125Hz@{LtEarHLdB125Hz}}
+\index{LtEarHLdB125Hz@{LtEarHLdB125Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB125Hz}{LtEarHLdB125Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B125\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_ad2f7379b0fa659e72e26bcbef3f80275}\label{a00908_ad2f7379b0fa659e72e26bcbef3f80275}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB2000Hz@{LtEarHLdB2000Hz}}
+\index{LtEarHLdB2000Hz@{LtEarHLdB2000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB2000Hz}{LtEarHLdB2000Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B2000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_ace93fa71760645d705ed8f573c6877ff}\label{a00908_ace93fa71760645d705ed8f573c6877ff}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB250Hz@{LtEarHLdB250Hz}}
+\index{LtEarHLdB250Hz@{LtEarHLdB250Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB250Hz}{LtEarHLdB250Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B250\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_aa37005bcf95f27ce8bb0116d2538c630}\label{a00908_aa37005bcf95f27ce8bb0116d2538c630}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB3000Hz@{LtEarHLdB3000Hz}}
+\index{LtEarHLdB3000Hz@{LtEarHLdB3000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB3000Hz}{LtEarHLdB3000Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B3000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_aed333f65ba0af606c5cc13f72838b688}\label{a00908_aed333f65ba0af606c5cc13f72838b688}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB4000Hz@{LtEarHLdB4000Hz}}
+\index{LtEarHLdB4000Hz@{LtEarHLdB4000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB4000Hz}{LtEarHLdB4000Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B4000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a960d0014689f12094250c7c88cce7be1}\label{a00908_a960d0014689f12094250c7c88cce7be1}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB500Hz@{LtEarHLdB500Hz}}
+\index{LtEarHLdB500Hz@{LtEarHLdB500Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB500Hz}{LtEarHLdB500Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B500\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a7e24c7a4a0178b304dc1508034421ace}\label{a00908_a7e24c7a4a0178b304dc1508034421ace}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB6000Hz@{LtEarHLdB6000Hz}}
+\index{LtEarHLdB6000Hz@{LtEarHLdB6000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB6000Hz}{LtEarHLdB6000Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B6000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a1d9a288693d725b411926af0e952fb1c}\label{a00908_a1d9a288693d725b411926af0e952fb1c}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!LtEarHLdB8000Hz@{LtEarHLdB8000Hz}}
+\index{LtEarHLdB8000Hz@{LtEarHLdB8000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{LtEarHLdB8000Hz}{LtEarHLdB8000Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Lt\+Ear\+H\+Ld\+B8000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a01e004154330d3614f0719ada01c99c8}\label{a00908_a01e004154330d3614f0719ada01c99c8}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB1000Hz@{RtEarHLdB1000Hz}}
+\index{RtEarHLdB1000Hz@{RtEarHLdB1000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB1000Hz}{RtEarHLdB1000Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B1000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a9d06abca79264a2523fead939c094bf9}\label{a00908_a9d06abca79264a2523fead939c094bf9}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB125Hz@{RtEarHLdB125Hz}}
+\index{RtEarHLdB125Hz@{RtEarHLdB125Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB125Hz}{RtEarHLdB125Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B125\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a47770216c817b1d755398824968bb679}\label{a00908_a47770216c817b1d755398824968bb679}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB2000Hz@{RtEarHLdB2000Hz}}
+\index{RtEarHLdB2000Hz@{RtEarHLdB2000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB2000Hz}{RtEarHLdB2000Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B2000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a25b92b62b59f8eefa8394229345dc3d8}\label{a00908_a25b92b62b59f8eefa8394229345dc3d8}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB250Hz@{RtEarHLdB250Hz}}
+\index{RtEarHLdB250Hz@{RtEarHLdB250Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB250Hz}{RtEarHLdB250Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B250\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a5c3de23003030bcfa3e442d5127646fa}\label{a00908_a5c3de23003030bcfa3e442d5127646fa}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB3000Hz@{RtEarHLdB3000Hz}}
+\index{RtEarHLdB3000Hz@{RtEarHLdB3000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB3000Hz}{RtEarHLdB3000Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B3000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_afdad6c88f4d3d3d597865dfa9cbeee3b}\label{a00908_afdad6c88f4d3d3d597865dfa9cbeee3b}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB4000Hz@{RtEarHLdB4000Hz}}
+\index{RtEarHLdB4000Hz@{RtEarHLdB4000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB4000Hz}{RtEarHLdB4000Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B4000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_ac5e3c681f7a7dff5cb53d6ce545129cf}\label{a00908_ac5e3c681f7a7dff5cb53d6ce545129cf}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB500Hz@{RtEarHLdB500Hz}}
+\index{RtEarHLdB500Hz@{RtEarHLdB500Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB500Hz}{RtEarHLdB500Hz}}
+{\footnotesize\ttfamily virtual string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B500\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a735cb4b42352dfd0265c8734a74c34a0}\label{a00908_a735cb4b42352dfd0265c8734a74c34a0}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB6000Hz@{RtEarHLdB6000Hz}}
+\index{RtEarHLdB6000Hz@{RtEarHLdB6000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB6000Hz}{RtEarHLdB6000Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B6000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_aa14e55f5650ede5535a00f85133c46db}\label{a00908_aa14e55f5650ede5535a00f85133c46db}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!RtEarHLdB8000Hz@{RtEarHLdB8000Hz}}
+\index{RtEarHLdB8000Hz@{RtEarHLdB8000Hz}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{RtEarHLdB8000Hz}{RtEarHLdB8000Hz}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Rt\+Ear\+H\+Ld\+B8000\+Hz\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_ab7f8226bcbdbbb91c8d8792482433fe5}\label{a00908_ab7f8226bcbdbbb91c8d8792482433fe5}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!ShowLtEarPlot@{ShowLtEarPlot}}
+\index{ShowLtEarPlot@{ShowLtEarPlot}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{ShowLtEarPlot}{ShowLtEarPlot}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Show\+Lt\+Ear\+Plot\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a0a0af6b7429350578b655bc76dda3e59}\label{a00908_a0a0af6b7429350578b655bc76dda3e59}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!ShowPlot@{ShowPlot}}
+\index{ShowPlot@{ShowPlot}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{ShowPlot}{ShowPlot}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Show\+Plot\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00908_a9bee6f56bd192d064605c025839a1e29}\label{a00908_a9bee6f56bd192d064605c025839a1e29}} 
+\index{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}!ShowRtEarPlot@{ShowRtEarPlot}}
+\index{ShowRtEarPlot@{ShowRtEarPlot}!Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData@{Audiometry.ViewModel.PureToneVM.PureToneAMData.PureToneData}}
+\doxysubsubsection{\texorpdfstring{ShowRtEarPlot}{ShowRtEarPlot}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Pure\+Tone\+A\+M\+Data.\+Pure\+Tone\+Data.\+Show\+Rt\+Ear\+Plot\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+View\+Model/\+Pure\+Tone\+V\+M/\+Pure\+Tone\+A\+M\+Data/\mbox{\hyperlink{a00326}{Pure\+Tone\+Data.\+cs}}\end{DoxyCompactItemize}

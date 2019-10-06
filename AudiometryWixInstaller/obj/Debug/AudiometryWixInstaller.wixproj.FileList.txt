@@ -1,0 +1,6 @@
+obj\Debug\AudiometryInstaller.wixobj
+E:\SoftwareProjects\AudiometryApplication\trunk\src\Audiometry\AudiometryWixInstaller\bin\Debug\AudiometryWixInstaller.msi
+E:\SoftwareProjects\AudiometryApplication\trunk\src\Audiometry\AudiometryWixInstaller\bin\Debug\AudiometryWixInstaller.wixpdb
+obj\Debug\AudiometryWixInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\AudiometryWixInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\AudiometryWixInstaller.wixproj.BindBuiltOutputsFileListnull.txt

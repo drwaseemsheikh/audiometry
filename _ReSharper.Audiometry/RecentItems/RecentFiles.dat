@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:ShiftMarker.cs" caret="429" fromTop="16" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:ACAidMarker.cs" caret="287" fromTop="6" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AirCondAidPlot.cs" caret="696" fromTop="22" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AudiogramPlot.cs" caret="1356" fromTop="35" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:AirCondUmskData.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:PureToneData.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:SoundFieldData.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:LoudDiscomLvlData.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:HearingLevel.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:BoneCondUmskData.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:BoneCondMskData.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:AirCondMskData.cs" caret="303" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:AirCondAidData.cs" caret="326" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:SoundFieldPlot.cs" caret="843" fromTop="25" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:LoudDiscomLvlPlot.cs" caret="839" fromTop="15" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:FreqLogAxis.cs" caret="258" fromTop="12" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:BoneCondUmskPlot.cs" caret="886" fromTop="16" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:BoneCondMskPlot.cs" caret="910" fromTop="23" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AirCondUmskPlot.cs" caret="398" fromTop="10" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AirCondMskPlot.cs" caret="427" fromTop="17" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AudiogramTypes.cs" caret="1059" fromTop="26" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:PureToneAMTypes.cs" caret="584" fromTop="27" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Validation/f:HearingLevelValidation.cs" caret="608" fromTop="20" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:View/f:MainWindow.xaml" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:View/f:LoginWindow.xaml" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:View/f:App.xaml" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Helper/f:ExtensionMethods.cs" caret="1167" fromTop="33" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:ViewModel/f:SpeechTabVM.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:View/f:LoginWindow.xaml.cs" caret="0" fromTop="0" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:SoundFieldMarker.cs" caret="853" fromTop="17" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:ViewModel/d:PureToneAMVM/f:AirCondUmskVM.cs" caret="364" fromTop="14" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:ViewModel/d:PureToneAMVM/f:BoneCondUmskVM.cs" caret="366" fromTop="14" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:FreqLogAxis.cs" caret="561" fromTop="15" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AudiogramTypes.cs" caret="573" fromTop="20" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:PureToneAMTypes.cs" caret="538" fromTop="25" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:HearingLevel.cs" caret="2010" fromTop="28" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Validation/f:HearingLevelValidation.cs" caret="746" fromTop="21" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:ACMskMarker.cs" caret="287" fromTop="9" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:ACUmskMarker.cs" caret="715" fromTop="26" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:BCMskMarker.cs" caret="378" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:BoneCondMskPlot.cs" caret="898" fromTop="11" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AirCondMskPlot.cs" caret="427" fromTop="17" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AirCondUmskPlot.cs" caret="398" fromTop="10" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:BoneCondUmskPlot.cs" caret="886" fromTop="16" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:LdlMarker.cs" caret="376" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:LoudDiscomLvlPlot.cs" caret="839" fromTop="15" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:SoundFieldMarker.cs" caret="353" fromTop="12" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:SoundFieldPlot.cs" caret="843" fromTop="7" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:PureToneData.cs" caret="6140" fromTop="21" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:AirCondAidData.cs" caret="326" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:AirCondMskData.cs" caret="326" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:AirCondUmskData.cs" caret="328" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:BoneCondMskData.cs" caret="326" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:BoneCondUmskData.cs" caret="328" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:LoudDiscomLvlData.cs" caret="332" fromTop="13" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:PureToneAMData/f:SoundFieldData.cs" caret="326" fromTop="10" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AudiogramPlot.cs" caret="1356" fromTop="35" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:ACAidMarker.cs" caret="287" fromTop="3" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/f:AirCondAidPlot.cs" caret="696" fromTop="22" />
+    <File id="DEBA15D7-28D4-493E-897D-7C8A913644EC/d:Audiogram/d:Marker/f:ShiftMarker.cs" caret="429" fromTop="16" />
+  </RecentEdits>
+</RecentFiles>

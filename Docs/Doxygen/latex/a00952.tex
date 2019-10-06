@@ -1,0 +1,499 @@
+\hypertarget{a00952}{}\doxysection{Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+VM Class Reference}
+\label{a00952}\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+
+
+Inheritance diagram for Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00951}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00950}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{a00956}{Intensity\+Pair}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00952_a4c92310a1a6317eb75c118591767dcdc}{Ablb\+Tab\+VM}} ()
+\item 
+void \mbox{\hyperlink{a00952_ab4c629f72f3f32c2b00b836bb5079d07}{Update\+Ablb\+Plot}} ()
+\item 
+override bool \mbox{\hyperlink{a00952_a83778320ab671558e9240c855a7b052e}{Add\+Record\+To\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override bool \mbox{\hyperlink{a00952_a7611a3f967d07be7781091986586edba}{Update\+Record\+In\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override void \mbox{\hyperlink{a00952_ab613649c1a52e18e9207638aa1972350}{Open\+Record\+From\+Database}} (string acc\+Number, string exam\+Date, out bool test\+Conducted)
+\item 
+override bool \mbox{\hyperlink{a00952_afa5ba3f862b2652580746d028764e8f2}{Delete\+Record\+From\+Database}} (string acc\+Number, string exam\+Date)
+\item 
+override void \mbox{\hyperlink{a00952_ab36ef704f20f9b63c1467eb9487f30ab}{Initialize\+Properties}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{a00952_a0f523bae99c0124631262093bd6532f5}{Ablb\+Tab\+Index}} = 0
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static Observable\+Collection$<$ string $>$ \mbox{\hyperlink{a00952_ad39973336b1dfc897829591d90e5d958}{IntensitiesdB}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Plot\+Model \mbox{\hyperlink{a00952_ac9e20d698cf14e223a62e6962ee0a9d9}{Ablb\+Plot\+Model}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static Observable\+Collection$<$ \mbox{\hyperlink{a00956}{Intensity\+Pair}} $>$ \mbox{\hyperlink{a00952_a97b189985585b11695358b6e50151275}{Intensity\+Pairs}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a2a57a38ac25dc169dfa5c67851f2327e}{Right\+Ear0}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_ad766090b70245d90abf9c62a5f2d652c}{Right\+Ear1}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_abdb88aac8c6b063597ed5708b00e5720}{Right\+Ear2}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a7369ae222e08fffe74057cb78569a446}{Right\+Ear3}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a6ee4fefe540ee1f24311ddd5b9b25733}{Right\+Ear4}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a3c621416b11b9735b5267711869f5d4b}{Right\+Ear5}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a1cfc106b88910b3263dd27b8a79defda}{Right\+Ear6}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a7ca5736ee4de0f864a02a692d5c6d70e}{Right\+Ear7}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a438374cfb60fec80b49b7bf4e5624a3a}{Right\+Ear8}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_ad93b751ba752de29942635a51804b1cd}{Right\+Ear9}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a7ac44b4f16afe4c0340222c16d3c0ec0}{Left\+Ear0}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a01e32adc6d11cc80092a32b505ea1017}{Left\+Ear1}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a54a6231343a6ec37c418c1d222ea1493}{Left\+Ear2}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a24004a3fa9366ff7b47f4ad80aeb3f48}{Left\+Ear3}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a8ac24e4fc46a6e6af151b3cbf10de703}{Left\+Ear4}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a3b1b4bcf1c0d6a2e38498ba307f656c4}{Left\+Ear5}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a9c7a935f1c996ae9e2213e75e16e3ea7}{Left\+Ear6}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a345e784c5ce5ea6d7cad77dfc3fffa36}{Left\+Ear7}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a0275bc5596dad7c0ca5a9e8d5cd03607}{Left\+Ear8}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00952_a0a016a592c7698b3f3d5dba7bbdb5fcf}{Left\+Ear9}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{a00952_af56543a8fdef12886419486e9c8c313f}{Add\+Plot\+Axes}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00580}{Sub\+Tab\+Model}} \mbox{\hyperlink{a00952_a37f681a03176964368267de9a526b425}{ablb\+Model}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const double \mbox{\hyperlink{a00952_a86a22d03437197adf469677a718f7a86}{H\+Axis\+Min}} = -\/5
+\item 
+const double \mbox{\hyperlink{a00952_a67d1414297922d9cc3a7f52a9b657bac}{H\+Axis\+Max}} = 95
+\item 
+const double \mbox{\hyperlink{a00952_a6c886c1b5403841b2a18ad4133aeb783}{Step\+Size}} = 10
+\item 
+const double \mbox{\hyperlink{a00952_afe1ae2c4a31f128cd2be425a9d3f6abb}{V\+Axis\+Min}} = 0
+\item 
+const double \mbox{\hyperlink{a00952_ab015bb4790600cd2aa0eea56a608c9c6}{V\+Axis\+Max}} = 10
+\item 
+const int \mbox{\hyperlink{a00952_a27cfe314169e4cd70727a638bb44847d}{Num\+Of\+Intensities}} = 10
+\item 
+static readonly Observable\+Collection$<$ string $>$ \mbox{\hyperlink{a00952_a43ae106c09f456a348c7fd380c105f83}{intensitiesdB}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00952_a4c92310a1a6317eb75c118591767dcdc}\label{a00952_a4c92310a1a6317eb75c118591767dcdc}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!AblbTabVM@{AblbTabVM}}
+\index{AblbTabVM@{AblbTabVM}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{AblbTabVM()}{AblbTabVM()}}
+{\footnotesize\ttfamily Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Ablb\+Tab\+VM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_a4c92310a1a6317eb75c118591767dcdc_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00952_af56543a8fdef12886419486e9c8c313f}\label{a00952_af56543a8fdef12886419486e9c8c313f}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!AddPlotAxes@{AddPlotAxes}}
+\index{AddPlotAxes@{AddPlotAxes}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{AddPlotAxes()}{AddPlotAxes()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Add\+Plot\+Axes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_af56543a8fdef12886419486e9c8c313f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00952_a83778320ab671558e9240c855a7b052e}\label{a00952_a83778320ab671558e9240c855a7b052e}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!AddRecordToDatabase@{AddRecordToDatabase}}
+\index{AddRecordToDatabase@{AddRecordToDatabase}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{AddRecordToDatabase()}{AddRecordToDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Add\+Record\+To\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_afaac4d6923e04101bc51e0fd7452726c}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_a83778320ab671558e9240c855a7b052e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_a83778320ab671558e9240c855a7b052e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00952_afa5ba3f862b2652580746d028764e8f2}\label{a00952_afa5ba3f862b2652580746d028764e8f2}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!DeleteRecordFromDatabase@{DeleteRecordFromDatabase}}
+\index{DeleteRecordFromDatabase@{DeleteRecordFromDatabase}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{DeleteRecordFromDatabase()}{DeleteRecordFromDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Delete\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_afed9d71c2f678f306639f5e91f0015bc}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_afa5ba3f862b2652580746d028764e8f2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_afa5ba3f862b2652580746d028764e8f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00952_ab36ef704f20f9b63c1467eb9487f30ab}\label{a00952_ab36ef704f20f9b63c1467eb9487f30ab}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!InitializeProperties@{InitializeProperties}}
+\index{InitializeProperties@{InitializeProperties}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{InitializeProperties()}{InitializeProperties()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Initialize\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_abdcd3eb39921332763fbf9edf68beaa9}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_ab36ef704f20f9b63c1467eb9487f30ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00952_ab613649c1a52e18e9207638aa1972350}\label{a00952_ab613649c1a52e18e9207638aa1972350}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!OpenRecordFromDatabase@{OpenRecordFromDatabase}}
+\index{OpenRecordFromDatabase@{OpenRecordFromDatabase}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{OpenRecordFromDatabase()}{OpenRecordFromDatabase()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Open\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{out bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_af6264ad245fe5e18f816b9007be974b1}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_ab613649c1a52e18e9207638aa1972350_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_ab613649c1a52e18e9207638aa1972350_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00952_ab4c629f72f3f32c2b00b836bb5079d07}\label{a00952_ab4c629f72f3f32c2b00b836bb5079d07}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!UpdateAblbPlot@{UpdateAblbPlot}}
+\index{UpdateAblbPlot@{UpdateAblbPlot}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{UpdateAblbPlot()}{UpdateAblbPlot()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Update\+Ablb\+Plot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{a00952_a7611a3f967d07be7781091986586edba}\label{a00952_a7611a3f967d07be7781091986586edba}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!UpdateRecordInDatabase@{UpdateRecordInDatabase}}
+\index{UpdateRecordInDatabase@{UpdateRecordInDatabase}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{UpdateRecordInDatabase()}{UpdateRecordInDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Update\+Record\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00996_a86f00b61115c320df7c4934901d71309}{Audiometry.\+View\+Model.\+Sub\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_a7611a3f967d07be7781091986586edba_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00952_a7611a3f967d07be7781091986586edba_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00952_a37f681a03176964368267de9a526b425}\label{a00952_a37f681a03176964368267de9a526b425}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!ablbModel@{ablbModel}}
+\index{ablbModel@{ablbModel}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{ablbModel}{ablbModel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00580}{Sub\+Tab\+Model}} Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+ablb\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00952_a0f523bae99c0124631262093bd6532f5}\label{a00952_a0f523bae99c0124631262093bd6532f5}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!AblbTabIndex@{AblbTabIndex}}
+\index{AblbTabIndex@{AblbTabIndex}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{AblbTabIndex}{AblbTabIndex}}
+{\footnotesize\ttfamily const int Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Ablb\+Tab\+Index = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{a00952_a67d1414297922d9cc3a7f52a9b657bac}\label{a00952_a67d1414297922d9cc3a7f52a9b657bac}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!HAxisMax@{HAxisMax}}
+\index{HAxisMax@{HAxisMax}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{HAxisMax}{HAxisMax}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+H\+Axis\+Max = 95\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00952_a86a22d03437197adf469677a718f7a86}\label{a00952_a86a22d03437197adf469677a718f7a86}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!HAxisMin@{HAxisMin}}
+\index{HAxisMin@{HAxisMin}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{HAxisMin}{HAxisMin}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+H\+Axis\+Min = -\/5\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00952_a43ae106c09f456a348c7fd380c105f83}\label{a00952_a43ae106c09f456a348c7fd380c105f83}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!intensitiesdB@{intensitiesdB}}
+\index{intensitiesdB@{intensitiesdB}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{intensitiesdB}{intensitiesdB}}
+{\footnotesize\ttfamily readonly Observable\+Collection$<$string$>$ Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+intensitiesdB\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} ObservableCollection<string>()}
+\DoxyCodeLine{                                                                    \{}
+\DoxyCodeLine{                                                                        \textcolor{stringliteral}{""}, \textcolor{stringliteral}{"0"}, \textcolor{stringliteral}{"10"}, \textcolor{stringliteral}{"20"}, \textcolor{stringliteral}{"30"}, \textcolor{stringliteral}{"40"}, \textcolor{stringliteral}{"50"}, \textcolor{stringliteral}{"60"}, \textcolor{stringliteral}{"70"}, \textcolor{stringliteral}{"80"}, \textcolor{stringliteral}{"90"}}
+\DoxyCodeLine{                                                                    \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{a00952_a27cfe314169e4cd70727a638bb44847d}\label{a00952_a27cfe314169e4cd70727a638bb44847d}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!NumOfIntensities@{NumOfIntensities}}
+\index{NumOfIntensities@{NumOfIntensities}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{NumOfIntensities}{NumOfIntensities}}
+{\footnotesize\ttfamily const int Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Num\+Of\+Intensities = 10\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00952_a6c886c1b5403841b2a18ad4133aeb783}\label{a00952_a6c886c1b5403841b2a18ad4133aeb783}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!StepSize@{StepSize}}
+\index{StepSize@{StepSize}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{StepSize}{StepSize}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Step\+Size = 10\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00952_ab015bb4790600cd2aa0eea56a608c9c6}\label{a00952_ab015bb4790600cd2aa0eea56a608c9c6}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!VAxisMax@{VAxisMax}}
+\index{VAxisMax@{VAxisMax}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{VAxisMax}{VAxisMax}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+V\+Axis\+Max = 10\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00952_afe1ae2c4a31f128cd2be425a9d3f6abb}\label{a00952_afe1ae2c4a31f128cd2be425a9d3f6abb}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!VAxisMin@{VAxisMin}}
+\index{VAxisMin@{VAxisMin}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{VAxisMin}{VAxisMin}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+V\+Axis\+Min = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{a00952_ac9e20d698cf14e223a62e6962ee0a9d9}\label{a00952_ac9e20d698cf14e223a62e6962ee0a9d9}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!AblbPlotModel@{AblbPlotModel}}
+\index{AblbPlotModel@{AblbPlotModel}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{AblbPlotModel}{AblbPlotModel}}
+{\footnotesize\ttfamily Plot\+Model Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Ablb\+Plot\+Model\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\mbox{\Hypertarget{a00952_ad39973336b1dfc897829591d90e5d958}\label{a00952_ad39973336b1dfc897829591d90e5d958}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!IntensitiesdB@{IntensitiesdB}}
+\index{IntensitiesdB@{IntensitiesdB}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{IntensitiesdB}{IntensitiesdB}}
+{\footnotesize\ttfamily Observable\+Collection$<$string$>$ Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+IntensitiesdB\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00952_a97b189985585b11695358b6e50151275}\label{a00952_a97b189985585b11695358b6e50151275}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!IntensityPairs@{IntensityPairs}}
+\index{IntensityPairs@{IntensityPairs}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{IntensityPairs}{IntensityPairs}}
+{\footnotesize\ttfamily Observable\+Collection$<$\mbox{\hyperlink{a00956}{Intensity\+Pair}}$>$ Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Intensity\+Pairs\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00952_a7ac44b4f16afe4c0340222c16d3c0ec0}\label{a00952_a7ac44b4f16afe4c0340222c16d3c0ec0}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar0@{LeftEar0}}
+\index{LeftEar0@{LeftEar0}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar0}{LeftEar0}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear0\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a01e32adc6d11cc80092a32b505ea1017}\label{a00952_a01e32adc6d11cc80092a32b505ea1017}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar1@{LeftEar1}}
+\index{LeftEar1@{LeftEar1}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar1}{LeftEar1}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear1\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a54a6231343a6ec37c418c1d222ea1493}\label{a00952_a54a6231343a6ec37c418c1d222ea1493}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar2@{LeftEar2}}
+\index{LeftEar2@{LeftEar2}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar2}{LeftEar2}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear2\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a24004a3fa9366ff7b47f4ad80aeb3f48}\label{a00952_a24004a3fa9366ff7b47f4ad80aeb3f48}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar3@{LeftEar3}}
+\index{LeftEar3@{LeftEar3}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar3}{LeftEar3}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear3\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a8ac24e4fc46a6e6af151b3cbf10de703}\label{a00952_a8ac24e4fc46a6e6af151b3cbf10de703}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar4@{LeftEar4}}
+\index{LeftEar4@{LeftEar4}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar4}{LeftEar4}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear4\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a3b1b4bcf1c0d6a2e38498ba307f656c4}\label{a00952_a3b1b4bcf1c0d6a2e38498ba307f656c4}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar5@{LeftEar5}}
+\index{LeftEar5@{LeftEar5}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar5}{LeftEar5}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear5\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a9c7a935f1c996ae9e2213e75e16e3ea7}\label{a00952_a9c7a935f1c996ae9e2213e75e16e3ea7}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar6@{LeftEar6}}
+\index{LeftEar6@{LeftEar6}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar6}{LeftEar6}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear6\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a345e784c5ce5ea6d7cad77dfc3fffa36}\label{a00952_a345e784c5ce5ea6d7cad77dfc3fffa36}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar7@{LeftEar7}}
+\index{LeftEar7@{LeftEar7}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar7}{LeftEar7}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear7\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a0275bc5596dad7c0ca5a9e8d5cd03607}\label{a00952_a0275bc5596dad7c0ca5a9e8d5cd03607}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar8@{LeftEar8}}
+\index{LeftEar8@{LeftEar8}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar8}{LeftEar8}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear8\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a0a016a592c7698b3f3d5dba7bbdb5fcf}\label{a00952_a0a016a592c7698b3f3d5dba7bbdb5fcf}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!LeftEar9@{LeftEar9}}
+\index{LeftEar9@{LeftEar9}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{LeftEar9}{LeftEar9}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Left\+Ear9\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a2a57a38ac25dc169dfa5c67851f2327e}\label{a00952_a2a57a38ac25dc169dfa5c67851f2327e}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar0@{RightEar0}}
+\index{RightEar0@{RightEar0}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar0}{RightEar0}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear0\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_ad766090b70245d90abf9c62a5f2d652c}\label{a00952_ad766090b70245d90abf9c62a5f2d652c}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar1@{RightEar1}}
+\index{RightEar1@{RightEar1}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar1}{RightEar1}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear1\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_abdb88aac8c6b063597ed5708b00e5720}\label{a00952_abdb88aac8c6b063597ed5708b00e5720}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar2@{RightEar2}}
+\index{RightEar2@{RightEar2}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar2}{RightEar2}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear2\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a7369ae222e08fffe74057cb78569a446}\label{a00952_a7369ae222e08fffe74057cb78569a446}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar3@{RightEar3}}
+\index{RightEar3@{RightEar3}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar3}{RightEar3}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear3\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a6ee4fefe540ee1f24311ddd5b9b25733}\label{a00952_a6ee4fefe540ee1f24311ddd5b9b25733}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar4@{RightEar4}}
+\index{RightEar4@{RightEar4}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar4}{RightEar4}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear4\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a3c621416b11b9735b5267711869f5d4b}\label{a00952_a3c621416b11b9735b5267711869f5d4b}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar5@{RightEar5}}
+\index{RightEar5@{RightEar5}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar5}{RightEar5}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear5\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a1cfc106b88910b3263dd27b8a79defda}\label{a00952_a1cfc106b88910b3263dd27b8a79defda}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar6@{RightEar6}}
+\index{RightEar6@{RightEar6}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar6}{RightEar6}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear6\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a7ca5736ee4de0f864a02a692d5c6d70e}\label{a00952_a7ca5736ee4de0f864a02a692d5c6d70e}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar7@{RightEar7}}
+\index{RightEar7@{RightEar7}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar7}{RightEar7}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear7\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_a438374cfb60fec80b49b7bf4e5624a3a}\label{a00952_a438374cfb60fec80b49b7bf4e5624a3a}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar8@{RightEar8}}
+\index{RightEar8@{RightEar8}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar8}{RightEar8}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear8\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00952_ad93b751ba752de29942635a51804b1cd}\label{a00952_ad93b751ba752de29942635a51804b1cd}} 
+\index{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}!RightEar9@{RightEar9}}
+\index{RightEar9@{RightEar9}!Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM@{Audiometry.ViewModel.PureToneVM.SpecialTestsVM.AblbTabVM}}
+\doxysubsubsection{\texorpdfstring{RightEar9}{RightEar9}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Pure\+Tone\+V\+M.\+Special\+Tests\+V\+M.\+Ablb\+Tab\+V\+M.\+Right\+Ear9\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+View\+Model/\+Pure\+Tone\+V\+M/\+Special\+Tests\+V\+M/\mbox{\hyperlink{a00359}{Ablb\+Tab\+V\+M.\+cs}}\end{DoxyCompactItemize}

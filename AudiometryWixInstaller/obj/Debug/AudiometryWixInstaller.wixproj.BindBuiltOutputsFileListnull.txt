@@ -1,0 +1,2 @@
+E:\SoftwareProjects\AudiometryApplication\trunk\src\Audiometry\AudiometryWixInstaller\bin\Debug\AudiometryWixInstaller.msi
+E:\SoftwareProjects\AudiometryApplication\trunk\src\Audiometry\AudiometryWixInstaller\bin\Debug\AudiometryWixInstaller.wixpdb

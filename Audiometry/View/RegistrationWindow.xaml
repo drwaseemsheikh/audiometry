@@ -1,0 +1,61 @@
+﻿<Window x:Class="Audiometry.View.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registration" Height="350" Width="528" FontSize="14" 
+        WindowStartupLocation="CenterScreen" Closing="RegistrationWindow_Closing" ResizeMode="NoResize">
+    <Border BorderBrush="CornflowerBlue" Background="AliceBlue" BorderThickness="1" Padding="5">
+        <Grid  Height="320" Width="525">
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,5,0,0" Name="textBlockHeading" 
+                       Text="Registration" VerticalAlignment="Top" Width="110"  FontSize="17" FontStretch="ExtraCondensed"/>
+            <!--Button as a Link button using style-->
+            <Button Margin="451,5,12,288" Content="Login" Cursor="Hand" Click="Login_Click">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <TextBlock TextDecorations="Underline">  
+                    <ContentPresenter />
+                        </TextBlock>
+                    </ControlTemplate>
+                </Button.Template>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Foreground" Value="Navy" />
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Foreground" Value="Red" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <!--end Button as a Link button using style-->
+            <Grid Margin="22,0,38,23" Height="264" VerticalAlignment="Bottom">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="252*" />
+                    <!--   <RowDefinition Height="12*" />-->
+                </Grid.RowDefinitions>
+                <TextBlock Height="45" HorizontalAlignment="Left" Margin="21,209,0,0" x:Name ="errormessage" 
+                           VerticalAlignment="Top" Width="422"  OpacityMask="Crimson" Foreground="#FFE5572C" TextWrapping="Wrap" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="41,45,0,0" Name="textBlockUsername" 
+                           Text="Username:" VerticalAlignment="Top" Width="120" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="41,79,0,0" Name="textBlockPassword" 
+                           Text="Password:" VerticalAlignment="Top" Width="120"  />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="41,113,0,0" Name="textBlockConfirmPwd" 
+                           Text="Confirm Password:" VerticalAlignment="Top" Width="120" />
+
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="166,45,0,0" Name="usernameTxt" 
+                         VerticalAlignment="Top" Width="222" />
+                <PasswordBox Height="23" HorizontalAlignment="Left" Margin="166,79,0,0" Name="passwordBox" 
+                             VerticalAlignment="Top" Width="222" />
+                <!--For password-->
+                <PasswordBox Height="23" HorizontalAlignment="Left" Margin="166,113,0,0" Name="passwordBoxConfirm" 
+                             VerticalAlignment="Top" Width="222" />
+                <Button Content="Submit" Height="23" HorizontalAlignment="Left" Margin="221,171,0,0" Name="SubmitBtn" 
+                        VerticalAlignment="Top" Width="70" Click="SubmitBtn_Click" />
+                <Button Content="Reset" Height="23" HorizontalAlignment="Left" Margin="297,171,0,0" Name="ResetBtn" 
+                        VerticalAlignment="Top" Width="70" Click="ResetBtn_Click" />
+                <Button Content="Cancel" Height="23" HorizontalAlignment="Right" Margin="0,171,22,0" Name="CancelBtn" 
+                        VerticalAlignment="Top" Width="70" Click="CancelBtn_Click" />
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

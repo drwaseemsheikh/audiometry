@@ -1,0 +1,589 @@
+\hypertarget{a00736}{}\doxysection{Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+VM Class Reference}
+\label{a00736}\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+
+
+Inheritance diagram for Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00735}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00734}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00736_a9ed3f87049111ef70cffe63716af0342}{Patient\+Tab\+VM}} ()
+\item 
+I\+List$<$ \mbox{\hyperlink{a00732}{Diagnosis}} $>$ \mbox{\hyperlink{a00736_a5187a21ecd5faf9cf23c81a7624bfe5a}{Create\+Unchecked\+Diagnosis\+List}} ()
+\item 
+I\+List$<$ \mbox{\hyperlink{a00740}{Symptom}} $>$ \mbox{\hyperlink{a00736_a4896e49393e8b36d0841231aeb9b1bfd}{Create\+Unchecked\+Symptoms\+List}} ()
+\item 
+override bool \mbox{\hyperlink{a00736_a816e33775b900f571c780e25eb2a4600}{Add\+Record\+To\+Database}} (string account\+Number, string exam\+Date, out string msg)
+\item 
+override bool \mbox{\hyperlink{a00736_a7e6e2ef6409d8e4ddcbb7b5e21abbf23}{Update\+Record\+In\+Database}} (string account\+Number, string exam\+Date, out string msg)
+\item 
+override void \mbox{\hyperlink{a00736_aabdc887d097abd4c1ec2fa6a5866e880}{Open\+Record\+From\+Database}} (string account\+Number, string exam\+Date)
+\item 
+bool \mbox{\hyperlink{a00736_a11e48bfe979f2dca96c84d7d573f585b}{Does\+Record\+Exist\+In\+Database}} (string account\+Number, string exam\+Date)
+\item 
+override bool \mbox{\hyperlink{a00736_ab387ca6fe04a8932940695bcb816a8e8}{Delete\+Record\+From\+Database}} (string account\+Number, string exam\+Date)
+\item 
+bool \mbox{\hyperlink{a00736_a058f375f44d0cc8d2d954d02d193f96f}{Is\+Valid\+Record}} ()
+\item 
+override void \mbox{\hyperlink{a00736_ac5a1f02d4de2cb24e88ef45c50a37a7b}{Initialize\+Properties}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{a00736_ab19ca609b4febbf017a176acd2fc01da}{First\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_a9798fc71663c2dd2441c0088c81f8e38}{Middle\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_a222b99780e1da8098259ff911a830964}{Last\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_ae56bc2729f787ea0aaed269e643f0ae6}{Title}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_afd012261d211a265099689c3e955bc43}{Acc\+Number}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_a34de5a0b19a14f4ac89c9381723dd793}{Phone}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_a3d232eec064cd16afee1c35b8345c7f1}{Dependee\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{a00418_aa3f51778a4b39896a73b95aa207b5a9d}{Relation\+Type}} \mbox{\hyperlink{a00736_a26dd994247f7b2b43d5f38ca3f95856c}{Dependee\+Relation}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_a877977ff24ad27bda818e599cf262027}{Address}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_aa175d42cc76cffe0f8ec7062ddc52099}{Prescription}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Date\+Time \mbox{\hyperlink{a00736_a8fd01e8a2ef4f1ef92b593678dc8efcb}{Date\+Of\+Birth}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{a00418_ad5e26f997563b1e256a823123337a54c}{Sex\+Type}} \mbox{\hyperlink{a00736_a3490389dca3929c4f63bbbffee99638a}{Sex}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Date\+Time \mbox{\hyperlink{a00736_a5371e972357e970f3cb27ecf9f0366da}{Date\+Of\+Exam}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+I\+List$<$ \mbox{\hyperlink{a00744}{Test}} $>$ \mbox{\hyperlink{a00736_abbb81e2d4832db925277518dfcf9bb22}{Test\+History}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_a30c574f20df160add8185c69a1c5c6f8}{Hospital\+ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+I\+List$<$ \mbox{\hyperlink{a00740}{Symptom}} $>$ \mbox{\hyperlink{a00736_ac9b6cfa246410f01fb8395ede863b4a9}{Symptoms}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_ac15e8143087ce0a74ab92f6eea8e625e}{Symptoms\+Remarks}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+I\+List$<$ \mbox{\hyperlink{a00732}{Diagnosis}} $>$ \mbox{\hyperlink{a00736_a8b9f07fb7dfdec8e0540c6a69d6691bc}{Diagnoses}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_a9477e097a5f29c7cfbce4c0a2387181d}{Diagnosis\+Remarks}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00736_aa5fcb2a58d2962f20710586dde8865a1}{Profession}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{a00736_a0902dcc83073e2f1c55487d0c9b69ca0}{first\+Name}}
+\item 
+string \mbox{\hyperlink{a00736_af7502233ec094d3d3040fdd9139d4612}{middle\+Name}}
+\item 
+string \mbox{\hyperlink{a00736_aaa36cf0c383eafbdbb238700afdfa7c2}{last\+Name}}
+\item 
+string \mbox{\hyperlink{a00736_ae711d07b696688d6a7b49c63e6872b04}{title}}
+\item 
+string \mbox{\hyperlink{a00736_a237002c9c5e79234b4e537d4371a6f1c}{acc\+Number}}
+\item 
+string \mbox{\hyperlink{a00736_a4d82db9019f0ec7a9517c2b996795a9a}{phone}}
+\item 
+string \mbox{\hyperlink{a00736_ac556cf5ae173033eb6fb08480f60ddd9}{dependee\+Name}}
+\item 
+\mbox{\hyperlink{a00418_aa3f51778a4b39896a73b95aa207b5a9d}{Relation\+Type}} \mbox{\hyperlink{a00736_a4356df51e2f8b7a3453deea058b6e0db}{dependee\+Relation}}
+\item 
+string \mbox{\hyperlink{a00736_aa8af33d6fcff0df8ce5efd7dae34e3d0}{address}}
+\item 
+string \mbox{\hyperlink{a00736_ac66fb8c3d4998d04f8f1db6eb9c4b23d}{prescription}}
+\item 
+Date\+Time \mbox{\hyperlink{a00736_a09313fa886be3f7e568bc4db1a4a599c}{date\+Of\+Birth}}
+\item 
+\mbox{\hyperlink{a00418_ad5e26f997563b1e256a823123337a54c}{Sex\+Type}} \mbox{\hyperlink{a00736_a4d61058a2504a6b845dcb956fbf5a930}{sex}}
+\item 
+Date\+Time \mbox{\hyperlink{a00736_aff6d7e64667f080571cc295f4ec0a9a1}{date\+Of\+Exam}}
+\item 
+I\+List$<$ \mbox{\hyperlink{a00744}{Test}} $>$ \mbox{\hyperlink{a00736_a1b83baf1e6680c7bea78784225fca19a}{test\+History}}
+\item 
+string \mbox{\hyperlink{a00736_a862f8e8015afd807b9f410ca2256d4e1}{hospital\+ID}}
+\item 
+I\+List$<$ \mbox{\hyperlink{a00740}{Symptom}} $>$ \mbox{\hyperlink{a00736_a79488557ff9a9bc3f8abc7e46fe73ced}{symptoms}}
+\item 
+string \mbox{\hyperlink{a00736_a0500225135c15162ff19c12cdde4336f}{symptomps\+Remarks}}
+\item 
+I\+List$<$ \mbox{\hyperlink{a00732}{Diagnosis}} $>$ \mbox{\hyperlink{a00736_a5f900367b391b470fb99a3c4f0efb930}{diagnoses}}
+\item 
+string \mbox{\hyperlink{a00736_a8ddb3c9d3784e5f216bb7787614a57a8}{diagnosis\+Remarks}}
+\item 
+string \mbox{\hyperlink{a00736_a03d638cbc8f4575b18b759ff16ce7bb7}{profession}}
+\item 
+\mbox{\hyperlink{a00604}{Tab\+Model}} \mbox{\hyperlink{a00736_aaaeb6caa2092130a070f2814eac5538e}{pt\+Model}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00736_a9ed3f87049111ef70cffe63716af0342}\label{a00736_a9ed3f87049111ef70cffe63716af0342}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!PatientTabVM@{PatientTabVM}}
+\index{PatientTabVM@{PatientTabVM}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{PatientTabVM()}{PatientTabVM()}}
+{\footnotesize\ttfamily Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Patient\+Tab\+VM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a9ed3f87049111ef70cffe63716af0342_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00736_a816e33775b900f571c780e25eb2a4600}\label{a00736_a816e33775b900f571c780e25eb2a4600}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!AddRecordToDatabase@{AddRecordToDatabase}}
+\index{AddRecordToDatabase@{AddRecordToDatabase}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{AddRecordToDatabase()}{AddRecordToDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Add\+Record\+To\+Database (\begin{DoxyParamCaption}\item[{string}]{account\+Number,  }\item[{string}]{exam\+Date,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_a9889112769ed7b9e254367de5ca49ebc}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a816e33775b900f571c780e25eb2a4600_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a816e33775b900f571c780e25eb2a4600_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00736_a5187a21ecd5faf9cf23c81a7624bfe5a}\label{a00736_a5187a21ecd5faf9cf23c81a7624bfe5a}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!CreateUncheckedDiagnosisList@{CreateUncheckedDiagnosisList}}
+\index{CreateUncheckedDiagnosisList@{CreateUncheckedDiagnosisList}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{CreateUncheckedDiagnosisList()}{CreateUncheckedDiagnosisList()}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00732}{Diagnosis}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Create\+Unchecked\+Diagnosis\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a5187a21ecd5faf9cf23c81a7624bfe5a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00736_a4896e49393e8b36d0841231aeb9b1bfd}\label{a00736_a4896e49393e8b36d0841231aeb9b1bfd}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!CreateUncheckedSymptomsList@{CreateUncheckedSymptomsList}}
+\index{CreateUncheckedSymptomsList@{CreateUncheckedSymptomsList}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{CreateUncheckedSymptomsList()}{CreateUncheckedSymptomsList()}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00740}{Symptom}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Create\+Unchecked\+Symptoms\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a4896e49393e8b36d0841231aeb9b1bfd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00736_ab387ca6fe04a8932940695bcb816a8e8}\label{a00736_ab387ca6fe04a8932940695bcb816a8e8}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!DeleteRecordFromDatabase@{DeleteRecordFromDatabase}}
+\index{DeleteRecordFromDatabase@{DeleteRecordFromDatabase}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{DeleteRecordFromDatabase()}{DeleteRecordFromDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Delete\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{account\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_a2a7b5f675eda4c135da3233125b276c3}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_ab387ca6fe04a8932940695bcb816a8e8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_ab387ca6fe04a8932940695bcb816a8e8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00736_a11e48bfe979f2dca96c84d7d573f585b}\label{a00736_a11e48bfe979f2dca96c84d7d573f585b}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!DoesRecordExistInDatabase@{DoesRecordExistInDatabase}}
+\index{DoesRecordExistInDatabase@{DoesRecordExistInDatabase}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{DoesRecordExistInDatabase()}{DoesRecordExistInDatabase()}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Does\+Record\+Exist\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{account\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a11e48bfe979f2dca96c84d7d573f585b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00736_ac5a1f02d4de2cb24e88ef45c50a37a7b}\label{a00736_ac5a1f02d4de2cb24e88ef45c50a37a7b}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!InitializeProperties@{InitializeProperties}}
+\index{InitializeProperties@{InitializeProperties}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{InitializeProperties()}{InitializeProperties()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Initialize\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_ab35dfd0dc797b524958e128020bc651d}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_ac5a1f02d4de2cb24e88ef45c50a37a7b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_ac5a1f02d4de2cb24e88ef45c50a37a7b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00736_a058f375f44d0cc8d2d954d02d193f96f}\label{a00736_a058f375f44d0cc8d2d954d02d193f96f}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!IsValidRecord@{IsValidRecord}}
+\index{IsValidRecord@{IsValidRecord}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{IsValidRecord()}{IsValidRecord()}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Is\+Valid\+Record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{a00736_aabdc887d097abd4c1ec2fa6a5866e880}\label{a00736_aabdc887d097abd4c1ec2fa6a5866e880}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!OpenRecordFromDatabase@{OpenRecordFromDatabase}}
+\index{OpenRecordFromDatabase@{OpenRecordFromDatabase}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{OpenRecordFromDatabase()}{OpenRecordFromDatabase()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Open\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{account\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_a1a813ed3aacf0d61f3f975dfbdcb4957}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_aabdc887d097abd4c1ec2fa6a5866e880_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_aabdc887d097abd4c1ec2fa6a5866e880_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00736_a7e6e2ef6409d8e4ddcbb7b5e21abbf23}\label{a00736_a7e6e2ef6409d8e4ddcbb7b5e21abbf23}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!UpdateRecordInDatabase@{UpdateRecordInDatabase}}
+\index{UpdateRecordInDatabase@{UpdateRecordInDatabase}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{UpdateRecordInDatabase()}{UpdateRecordInDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Update\+Record\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{account\+Number,  }\item[{string}]{exam\+Date,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_af93152ba9b77a30902af2bb86f725b1f}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a7e6e2ef6409d8e4ddcbb7b5e21abbf23_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00736_a7e6e2ef6409d8e4ddcbb7b5e21abbf23_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00736_a237002c9c5e79234b4e537d4371a6f1c}\label{a00736_a237002c9c5e79234b4e537d4371a6f1c}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!accNumber@{accNumber}}
+\index{accNumber@{accNumber}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{accNumber}{accNumber}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+acc\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_aa8af33d6fcff0df8ce5efd7dae34e3d0}\label{a00736_aa8af33d6fcff0df8ce5efd7dae34e3d0}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!address@{address}}
+\index{address@{address}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{address}{address}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+address\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a09313fa886be3f7e568bc4db1a4a599c}\label{a00736_a09313fa886be3f7e568bc4db1a4a599c}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!dateOfBirth@{dateOfBirth}}
+\index{dateOfBirth@{dateOfBirth}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{dateOfBirth}{dateOfBirth}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+date\+Of\+Birth\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_aff6d7e64667f080571cc295f4ec0a9a1}\label{a00736_aff6d7e64667f080571cc295f4ec0a9a1}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!dateOfExam@{dateOfExam}}
+\index{dateOfExam@{dateOfExam}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{dateOfExam}{dateOfExam}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+date\+Of\+Exam\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_ac556cf5ae173033eb6fb08480f60ddd9}\label{a00736_ac556cf5ae173033eb6fb08480f60ddd9}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!dependeeName@{dependeeName}}
+\index{dependeeName@{dependeeName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{dependeeName}{dependeeName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+dependee\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a4356df51e2f8b7a3453deea058b6e0db}\label{a00736_a4356df51e2f8b7a3453deea058b6e0db}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!dependeeRelation@{dependeeRelation}}
+\index{dependeeRelation@{dependeeRelation}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{dependeeRelation}{dependeeRelation}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00418_aa3f51778a4b39896a73b95aa207b5a9d}{Relation\+Type}} Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+dependee\+Relation\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a5f900367b391b470fb99a3c4f0efb930}\label{a00736_a5f900367b391b470fb99a3c4f0efb930}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!diagnoses@{diagnoses}}
+\index{diagnoses@{diagnoses}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{diagnoses}{diagnoses}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00732}{Diagnosis}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+diagnoses\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a8ddb3c9d3784e5f216bb7787614a57a8}\label{a00736_a8ddb3c9d3784e5f216bb7787614a57a8}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!diagnosisRemarks@{diagnosisRemarks}}
+\index{diagnosisRemarks@{diagnosisRemarks}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{diagnosisRemarks}{diagnosisRemarks}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+diagnosis\+Remarks\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a0902dcc83073e2f1c55487d0c9b69ca0}\label{a00736_a0902dcc83073e2f1c55487d0c9b69ca0}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!firstName@{firstName}}
+\index{firstName@{firstName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{firstName}{firstName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+first\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a862f8e8015afd807b9f410ca2256d4e1}\label{a00736_a862f8e8015afd807b9f410ca2256d4e1}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!hospitalID@{hospitalID}}
+\index{hospitalID@{hospitalID}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{hospitalID}{hospitalID}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+hospital\+ID\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_aaa36cf0c383eafbdbb238700afdfa7c2}\label{a00736_aaa36cf0c383eafbdbb238700afdfa7c2}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!lastName@{lastName}}
+\index{lastName@{lastName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{lastName}{lastName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+last\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_af7502233ec094d3d3040fdd9139d4612}\label{a00736_af7502233ec094d3d3040fdd9139d4612}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!middleName@{middleName}}
+\index{middleName@{middleName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{middleName}{middleName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+middle\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a4d82db9019f0ec7a9517c2b996795a9a}\label{a00736_a4d82db9019f0ec7a9517c2b996795a9a}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!phone@{phone}}
+\index{phone@{phone}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{phone}{phone}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+phone\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_ac66fb8c3d4998d04f8f1db6eb9c4b23d}\label{a00736_ac66fb8c3d4998d04f8f1db6eb9c4b23d}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!prescription@{prescription}}
+\index{prescription@{prescription}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{prescription}{prescription}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+prescription\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a03d638cbc8f4575b18b759ff16ce7bb7}\label{a00736_a03d638cbc8f4575b18b759ff16ce7bb7}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!profession@{profession}}
+\index{profession@{profession}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{profession}{profession}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+profession\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_aaaeb6caa2092130a070f2814eac5538e}\label{a00736_aaaeb6caa2092130a070f2814eac5538e}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!ptModel@{ptModel}}
+\index{ptModel@{ptModel}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{ptModel}{ptModel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00604}{Tab\+Model}} Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+pt\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a4d61058a2504a6b845dcb956fbf5a930}\label{a00736_a4d61058a2504a6b845dcb956fbf5a930}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!sex@{sex}}
+\index{sex@{sex}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{sex}{sex}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00418_ad5e26f997563b1e256a823123337a54c}{Sex\+Type}} Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+sex\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a0500225135c15162ff19c12cdde4336f}\label{a00736_a0500225135c15162ff19c12cdde4336f}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!symptompsRemarks@{symptompsRemarks}}
+\index{symptompsRemarks@{symptompsRemarks}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{symptompsRemarks}{symptompsRemarks}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+symptomps\+Remarks\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a79488557ff9a9bc3f8abc7e46fe73ced}\label{a00736_a79488557ff9a9bc3f8abc7e46fe73ced}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!symptoms@{symptoms}}
+\index{symptoms@{symptoms}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{symptoms}{symptoms}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00740}{Symptom}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+symptoms\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_a1b83baf1e6680c7bea78784225fca19a}\label{a00736_a1b83baf1e6680c7bea78784225fca19a}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!testHistory@{testHistory}}
+\index{testHistory@{testHistory}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{testHistory}{testHistory}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00744}{Test}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+test\+History\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_ae711d07b696688d6a7b49c63e6872b04}\label{a00736_ae711d07b696688d6a7b49c63e6872b04}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!title@{title}}
+\index{title@{title}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{title}{title}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+title\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{a00736_afd012261d211a265099689c3e955bc43}\label{a00736_afd012261d211a265099689c3e955bc43}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!AccNumber@{AccNumber}}
+\index{AccNumber@{AccNumber}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{AccNumber}{AccNumber}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Acc\+Number\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a877977ff24ad27bda818e599cf262027}\label{a00736_a877977ff24ad27bda818e599cf262027}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Address@{Address}}
+\index{Address@{Address}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Address}{Address}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Address\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a8fd01e8a2ef4f1ef92b593678dc8efcb}\label{a00736_a8fd01e8a2ef4f1ef92b593678dc8efcb}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!DateOfBirth@{DateOfBirth}}
+\index{DateOfBirth@{DateOfBirth}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{DateOfBirth}{DateOfBirth}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Date\+Of\+Birth\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a5371e972357e970f3cb27ecf9f0366da}\label{a00736_a5371e972357e970f3cb27ecf9f0366da}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!DateOfExam@{DateOfExam}}
+\index{DateOfExam@{DateOfExam}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{DateOfExam}{DateOfExam}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Date\+Of\+Exam\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a3d232eec064cd16afee1c35b8345c7f1}\label{a00736_a3d232eec064cd16afee1c35b8345c7f1}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!DependeeName@{DependeeName}}
+\index{DependeeName@{DependeeName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{DependeeName}{DependeeName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Dependee\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a26dd994247f7b2b43d5f38ca3f95856c}\label{a00736_a26dd994247f7b2b43d5f38ca3f95856c}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!DependeeRelation@{DependeeRelation}}
+\index{DependeeRelation@{DependeeRelation}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{DependeeRelation}{DependeeRelation}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00418_aa3f51778a4b39896a73b95aa207b5a9d}{Relation\+Type}} Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Dependee\+Relation\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a8b9f07fb7dfdec8e0540c6a69d6691bc}\label{a00736_a8b9f07fb7dfdec8e0540c6a69d6691bc}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Diagnoses@{Diagnoses}}
+\index{Diagnoses@{Diagnoses}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Diagnoses}{Diagnoses}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00732}{Diagnosis}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Diagnoses\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a9477e097a5f29c7cfbce4c0a2387181d}\label{a00736_a9477e097a5f29c7cfbce4c0a2387181d}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!DiagnosisRemarks@{DiagnosisRemarks}}
+\index{DiagnosisRemarks@{DiagnosisRemarks}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{DiagnosisRemarks}{DiagnosisRemarks}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Diagnosis\+Remarks\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_ab19ca609b4febbf017a176acd2fc01da}\label{a00736_ab19ca609b4febbf017a176acd2fc01da}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!FirstName@{FirstName}}
+\index{FirstName@{FirstName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{FirstName}{FirstName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+First\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a30c574f20df160add8185c69a1c5c6f8}\label{a00736_a30c574f20df160add8185c69a1c5c6f8}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!HospitalID@{HospitalID}}
+\index{HospitalID@{HospitalID}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{HospitalID}{HospitalID}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Hospital\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a222b99780e1da8098259ff911a830964}\label{a00736_a222b99780e1da8098259ff911a830964}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!LastName@{LastName}}
+\index{LastName@{LastName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{LastName}{LastName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Last\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a9798fc71663c2dd2441c0088c81f8e38}\label{a00736_a9798fc71663c2dd2441c0088c81f8e38}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!MiddleName@{MiddleName}}
+\index{MiddleName@{MiddleName}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{MiddleName}{MiddleName}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Middle\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a34de5a0b19a14f4ac89c9381723dd793}\label{a00736_a34de5a0b19a14f4ac89c9381723dd793}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Phone@{Phone}}
+\index{Phone@{Phone}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Phone}{Phone}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Phone\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_aa175d42cc76cffe0f8ec7062ddc52099}\label{a00736_aa175d42cc76cffe0f8ec7062ddc52099}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Prescription@{Prescription}}
+\index{Prescription@{Prescription}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Prescription}{Prescription}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Prescription\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_aa5fcb2a58d2962f20710586dde8865a1}\label{a00736_aa5fcb2a58d2962f20710586dde8865a1}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Profession@{Profession}}
+\index{Profession@{Profession}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Profession}{Profession}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Profession\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_a3490389dca3929c4f63bbbffee99638a}\label{a00736_a3490389dca3929c4f63bbbffee99638a}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Sex@{Sex}}
+\index{Sex@{Sex}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Sex}{Sex}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00418_ad5e26f997563b1e256a823123337a54c}{Sex\+Type}} Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Sex\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_ac9b6cfa246410f01fb8395ede863b4a9}\label{a00736_ac9b6cfa246410f01fb8395ede863b4a9}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Symptoms@{Symptoms}}
+\index{Symptoms@{Symptoms}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Symptoms}{Symptoms}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00740}{Symptom}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Symptoms\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_ac15e8143087ce0a74ab92f6eea8e625e}\label{a00736_ac15e8143087ce0a74ab92f6eea8e625e}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!SymptomsRemarks@{SymptomsRemarks}}
+\index{SymptomsRemarks@{SymptomsRemarks}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{SymptomsRemarks}{SymptomsRemarks}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Symptoms\+Remarks\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00736_abbb81e2d4832db925277518dfcf9bb22}\label{a00736_abbb81e2d4832db925277518dfcf9bb22}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!TestHistory@{TestHistory}}
+\index{TestHistory@{TestHistory}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{TestHistory}{TestHistory}}
+{\footnotesize\ttfamily I\+List$<$\mbox{\hyperlink{a00744}{Test}}$>$ Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Test\+History\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00736_ae56bc2729f787ea0aaed269e643f0ae6}\label{a00736_ae56bc2729f787ea0aaed269e643f0ae6}} 
+\index{Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}!Title@{Title}}
+\index{Title@{Title}!Audiometry.ViewModel.PatientVM.PatientTabVM@{Audiometry.ViewModel.PatientVM.PatientTabVM}}
+\doxysubsubsection{\texorpdfstring{Title}{Title}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Patient\+V\+M.\+Patient\+Tab\+V\+M.\+Title\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+View\+Model/\+Patient\+V\+M/\mbox{\hyperlink{a00236}{Patient\+Tab\+V\+M.\+cs}}\end{DoxyCompactItemize}

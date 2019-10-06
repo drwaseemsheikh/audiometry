@@ -1,0 +1,757 @@
+\hypertarget{a00712}{}\doxysection{Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+VM Class Reference}
+\label{a00712}\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+
+
+Inheritance diagram for Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00711}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00710}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{a00712_a8da163581e7d80be91a05ecc4cfba616}{Calorigram\+Type}} \{ \mbox{\hyperlink{a00712_a8da163581e7d80be91a05ecc4cfba616ad7ef71dabfba5b29c2acdd620c86f93f}{Calorigram\+Type.\+C\+A\+L\+O\+R\+I\+G\+R\+A\+M\+\_\+30C}}, 
+\mbox{\hyperlink{a00712_a8da163581e7d80be91a05ecc4cfba616a5086c9a4de3d99f8d6708532c9896b5c}{Calorigram\+Type.\+C\+A\+L\+O\+R\+I\+G\+R\+A\+M\+\_\+44C}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00712_a19cc09de2426d9145e46bab7d25b0ab9}{Bithermal\+Caloric\+Tab\+VM}} ()
+\item 
+void \mbox{\hyperlink{a00712_a118b2e386bfd384b4c67b7a1112ce4f8}{Update\+Calorigram}} (\mbox{\hyperlink{a00712_a8da163581e7d80be91a05ecc4cfba616}{Calorigram\+Type}} cal\+Type)
+\item 
+override bool \mbox{\hyperlink{a00712_a7fcf28b934432ec448a9bf5eb12f94fa}{Add\+Record\+To\+Database}} (string acc\+Number, string exam\+Date, out string msg)
+\item 
+override bool \mbox{\hyperlink{a00712_a7270a08cf93035ba0bf8a4908bfcf60c}{Update\+Record\+In\+Database}} (string acc\+Number, string exam\+Date, out string msg)
+\item 
+override void \mbox{\hyperlink{a00712_ac80965be2a3839ddf444347448333eed}{Open\+Record\+From\+Database}} (string acc\+Number, string exam\+Date)
+\item 
+override bool \mbox{\hyperlink{a00712_aaf8439489b9cec4c9ce8cc1734c571bf}{Delete\+Record\+From\+Database}} (string acc\+Number, string exam\+Date)
+\item 
+override void \mbox{\hyperlink{a00712_addc753a315911029dbfcb6d97636fdc1}{Initialize\+Properties}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{a00712_a19756d8d89762dd4820086bbb02b7937}{Is\+Caloric\+Test\+Conducted}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Date\+Time \mbox{\hyperlink{a00712_a120004a6739b4f9156264fc26810a417}{Date\+Caloric\+Test}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00712_a7caf278a5babe89791440e3ac2b74c5d}{Is\+Air\+Test}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00712_a4339b76bbd63cdecbd373162490aa427}{Is\+Water\+Test}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a4d095fa0927eb26c9e8efd5a68b0c7a1}{Nys\+Start\+Min30\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a4108cb26dc0753e961711fd6b3aaf32d}{Nys\+Start\+Sec30\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a8fde69ce152fea6f702b64c8c15d9373}{Nys\+End\+Min30\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a1379027b97d1760dd82f19d406b19716}{Nys\+End\+Sec30\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_abf8ac0fbc518c11137ac89273c468926}{Nys\+Start\+Min30\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_ae4a54c61c7966de937d8efade8169ca5}{Nys\+Start\+Sec30\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a01844a8caf0d2a931523b1d43db7566d}{Nys\+End\+Min30\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a6c1b575c321311af327b5cd28ad47e5a}{Nys\+End\+Sec30\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_ac5497a3cfbd9532deb3403dcdd29b216}{Nys\+Start\+Min44\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_aca8b80acc0ce211287120db3fa97a1e8}{Nys\+Start\+Sec44\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_ab70e69d81b43431f24f2a7db4ce3f9f3}{Nys\+End\+Min44\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a3424aad0a39b785faff433f84c9cf3bb}{Nys\+End\+Sec44\+Rt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a9afec9ba5ddb954af3e8776d7dbe3a0a}{Nys\+Start\+Min44\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_adabe9dc2e32e7cfe97b3aa5b63c7405e}{Nys\+Start\+Sec44\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a52f0a74c22751655057486060a3da8e7}{Nys\+End\+Min44\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a1d5164c6c55ee1ad9c7221f852a8107f}{Nys\+End\+Sec44\+Lt\+Ear}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a496dde787f19dba61945cef5e4713562}{Canal\+Paresis}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double? \mbox{\hyperlink{a00712_a590aa02144644b0957ebe9e8c67d096f}{Dir\+Prepond}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+I\+Command?? \mbox{\hyperlink{a00712_ae84c8b185f2363562a33809bbeed8395}{Canal\+Paresis\+Command}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+I\+Command?? \mbox{\hyperlink{a00712_a65d9f568ed43e91e06aaef6174bd4c16}{Dir\+Prepond\+Command}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Plot\+Model \mbox{\hyperlink{a00712_af1f50bdb6efeda0b876d4b5c7ed2bfef}{Calorigram30}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+Plot\+Model \mbox{\hyperlink{a00712_a4c1f0da0f9ee855b467faa169de03de3}{Calorigram44}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{a00712_ac943f5d48503a4857de5b046c0ae870a}{Add\+Plot\+Axes}} (Plot\+Model calorigram, string title)
+\item 
+void \mbox{\hyperlink{a00712_a07fafdfb99d588ae4db1af092d283a1a}{Find\+Canal\+Paresis}} ()
+\item 
+double \mbox{\hyperlink{a00712_a6f058011c4ee218ad6d8035dd968934f}{Get\+Nystagmus\+Duration\+Sec}} (double? start\+Min, double? start\+Sec, double? end\+Min, double? end\+Sec)
+\item 
+bool \mbox{\hyperlink{a00712_a52e2d09955aca26247ea26ace6ad3a09}{Can\+Find\+Canal\+Paresis\+Execute}} ()
+\item 
+void \mbox{\hyperlink{a00712_a68cdf243cd12c8a95fb4826add7923e0}{Find\+Dir\+Prepond}} ()
+\item 
+bool \mbox{\hyperlink{a00712_a8961e789c7ec11aa42ca62c011afc4db}{Can\+Find\+Dir\+Prepond\+Execute}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{a00712_a8b8373d9d2e3562c3c5d18488883a6d5}{is\+Caloric\+Test\+Conducted}}
+\item 
+Date\+Time \mbox{\hyperlink{a00712_ac7c378db261db901ee37c52ff41ba749}{date\+Caloric\+Test}}
+\item 
+bool \mbox{\hyperlink{a00712_a78e7491a26666dde2f40fd20071044ae}{is\+Air\+Test}}
+\item 
+bool \mbox{\hyperlink{a00712_abbe2476c3d419bf0706d11974ffcab5a}{is\+Water\+Test}}
+\item 
+double? \mbox{\hyperlink{a00712_a6243f87e7be622e01b1b7f6e82f48652}{nys\+Start\+Min30\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a2f6971f285fa10429df143b18064b11f}{nys\+Start\+Sec30\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_ae03bf7b324c975d12becffdde2fc48ac}{nys\+End\+Min30\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_acbbd3b454bd2f977cd06c4241308b8a3}{nys\+End\+Sec30\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_af12dd4647970cc3f70dc1c0ac0e9e883}{nys\+Start\+Min30\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a3be78bb93fb145ac91cd870e493200fa}{nys\+Start\+Sec30\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_ab97a6f24cd62951f2dab87f603c47fdf}{nys\+End\+Min30\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a3e7a28a658a33bc5aa1fed5b909006be}{nys\+End\+Sec30\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a5885d2803a636a2f172b15fc1b03b024}{nys\+Start\+Min44\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a04ad1f327ddd3c45c7a4b518de4a5d8d}{nys\+Start\+Sec44\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a3f8bde6d04e0c770180e2d9becc15043}{nys\+End\+Min44\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_aa5cf710384a2479ef962ded17dfc5d4b}{nys\+End\+Sec44\+Rt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a67c593e38e6d5d3a6fbc497cc13fe6c8}{nys\+Start\+Min44\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_ae637ae69afbf2e217ae1303b76f82740}{nys\+Start\+Sec44\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_a21974c2775ab4c76e2852d9abb00289d}{nys\+End\+Min44\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_acf8678d4bb6c517d67837fd8a68863b1}{nys\+End\+Sec44\+Lt\+Ear}}
+\item 
+double? \mbox{\hyperlink{a00712_ac44d1681ffbba6001dc07ede3b750ae5}{canal\+Paresis}}
+\item 
+double? \mbox{\hyperlink{a00712_a58c9d86ed3dc3b453b400357fbd11b67}{dir\+Prepond}}
+\item 
+I\+Command \mbox{\hyperlink{a00712_ad1b4f9f664e57696494da00e250fb164}{canal\+Paresis\+Command}}
+\item 
+I\+Command \mbox{\hyperlink{a00712_a7815bcfc7cd0eb24a464078310a7f2f0}{dir\+Prepond\+Command}}
+\item 
+\mbox{\hyperlink{a00604}{Tab\+Model}} \mbox{\hyperlink{a00712_a179cb244a8a716ef6a2e71e78e21a759}{bc\+Model}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const double \mbox{\hyperlink{a00712_aedd7b93ac865a43ed74d9007b28c4f61}{H\+Axis\+Minutes\+Min}} = 0
+\item 
+const double \mbox{\hyperlink{a00712_a09bd76cd59e7e316cd21d71e4e1eb8f1}{H\+Axis\+Minutes\+Max}} = 4
+\item 
+const double \mbox{\hyperlink{a00712_a6a8b7343c08ad156f3845c403e9da02a}{H\+Axis\+Seconds\+Min}} = \mbox{\hyperlink{a00712_aedd7b93ac865a43ed74d9007b28c4f61}{H\+Axis\+Minutes\+Min}}$\ast$60
+\item 
+const double \mbox{\hyperlink{a00712_a0e155c6530353042bb3b82035b426094}{H\+Axis\+Seconds\+Max}} = \mbox{\hyperlink{a00712_a09bd76cd59e7e316cd21d71e4e1eb8f1}{H\+Axis\+Minutes\+Max}}$\ast$60
+\item 
+const double \mbox{\hyperlink{a00712_a110337efaec0f75867df12953934a44e}{H\+Minutes\+Step\+Size}} = 1
+\item 
+const double \mbox{\hyperlink{a00712_a94b631720761cc34934764742256ab0d}{H\+Seconds\+Step\+Size}} = 20
+\item 
+const double \mbox{\hyperlink{a00712_ab3ddc18df98d35e667a74b89626de037}{V\+Step\+Size}} = 1
+\item 
+const double \mbox{\hyperlink{a00712_a12657975b75b07a5153dfa645f279c36}{V\+Axis\+Min}} = 0
+\item 
+const double \mbox{\hyperlink{a00712_aa20a39892c87be4891cb21c605afbf6c}{V\+Axis\+Max}} = 10
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{a00712_a8da163581e7d80be91a05ecc4cfba616}\label{a00712_a8da163581e7d80be91a05ecc4cfba616}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!CalorigramType@{CalorigramType}}
+\index{CalorigramType@{CalorigramType}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{CalorigramType}{CalorigramType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{a00712_a8da163581e7d80be91a05ecc4cfba616}{Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Calorigram\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CALORIGRAM\_30C@{CALORIGRAM\_30C}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!CALORIGRAM\_30C@{CALORIGRAM\_30C}}}\mbox{\Hypertarget{a00712_a8da163581e7d80be91a05ecc4cfba616ad7ef71dabfba5b29c2acdd620c86f93f}\label{a00712_a8da163581e7d80be91a05ecc4cfba616ad7ef71dabfba5b29c2acdd620c86f93f}} 
+C\+A\+L\+O\+R\+I\+G\+R\+A\+M\+\_\+30C&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CALORIGRAM\_44C@{CALORIGRAM\_44C}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!CALORIGRAM\_44C@{CALORIGRAM\_44C}}}\mbox{\Hypertarget{a00712_a8da163581e7d80be91a05ecc4cfba616a5086c9a4de3d99f8d6708532c9896b5c}\label{a00712_a8da163581e7d80be91a05ecc4cfba616a5086c9a4de3d99f8d6708532c9896b5c}} 
+C\+A\+L\+O\+R\+I\+G\+R\+A\+M\+\_\+44C&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00712_a19cc09de2426d9145e46bab7d25b0ab9}\label{a00712_a19cc09de2426d9145e46bab7d25b0ab9}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!BithermalCaloricTabVM@{BithermalCaloricTabVM}}
+\index{BithermalCaloricTabVM@{BithermalCaloricTabVM}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{BithermalCaloricTabVM()}{BithermalCaloricTabVM()}}
+{\footnotesize\ttfamily Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Bithermal\+Caloric\+Tab\+VM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_a19cc09de2426d9145e46bab7d25b0ab9_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00712_ac943f5d48503a4857de5b046c0ae870a}\label{a00712_ac943f5d48503a4857de5b046c0ae870a}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!AddPlotAxes@{AddPlotAxes}}
+\index{AddPlotAxes@{AddPlotAxes}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{AddPlotAxes()}{AddPlotAxes()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Add\+Plot\+Axes (\begin{DoxyParamCaption}\item[{Plot\+Model}]{calorigram,  }\item[{string}]{title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_ac943f5d48503a4857de5b046c0ae870a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00712_a7fcf28b934432ec448a9bf5eb12f94fa}\label{a00712_a7fcf28b934432ec448a9bf5eb12f94fa}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!AddRecordToDatabase@{AddRecordToDatabase}}
+\index{AddRecordToDatabase@{AddRecordToDatabase}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{AddRecordToDatabase()}{AddRecordToDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Add\+Record\+To\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_a9889112769ed7b9e254367de5ca49ebc}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_a7fcf28b934432ec448a9bf5eb12f94fa_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00712_a52e2d09955aca26247ea26ace6ad3a09}\label{a00712_a52e2d09955aca26247ea26ace6ad3a09}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!CanFindCanalParesisExecute@{CanFindCanalParesisExecute}}
+\index{CanFindCanalParesisExecute@{CanFindCanalParesisExecute}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{CanFindCanalParesisExecute()}{CanFindCanalParesisExecute()}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Can\+Find\+Canal\+Paresis\+Execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a8961e789c7ec11aa42ca62c011afc4db}\label{a00712_a8961e789c7ec11aa42ca62c011afc4db}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!CanFindDirPrepondExecute@{CanFindDirPrepondExecute}}
+\index{CanFindDirPrepondExecute@{CanFindDirPrepondExecute}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{CanFindDirPrepondExecute()}{CanFindDirPrepondExecute()}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Can\+Find\+Dir\+Prepond\+Execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_aaf8439489b9cec4c9ce8cc1734c571bf}\label{a00712_aaf8439489b9cec4c9ce8cc1734c571bf}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!DeleteRecordFromDatabase@{DeleteRecordFromDatabase}}
+\index{DeleteRecordFromDatabase@{DeleteRecordFromDatabase}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{DeleteRecordFromDatabase()}{DeleteRecordFromDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Delete\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_a2a7b5f675eda4c135da3233125b276c3}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_aaf8439489b9cec4c9ce8cc1734c571bf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00712_a07fafdfb99d588ae4db1af092d283a1a}\label{a00712_a07fafdfb99d588ae4db1af092d283a1a}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!FindCanalParesis@{FindCanalParesis}}
+\index{FindCanalParesis@{FindCanalParesis}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{FindCanalParesis()}{FindCanalParesis()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Find\+Canal\+Paresis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_a07fafdfb99d588ae4db1af092d283a1a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00712_a68cdf243cd12c8a95fb4826add7923e0}\label{a00712_a68cdf243cd12c8a95fb4826add7923e0}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!FindDirPrepond@{FindDirPrepond}}
+\index{FindDirPrepond@{FindDirPrepond}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{FindDirPrepond()}{FindDirPrepond()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Find\+Dir\+Prepond (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_a68cdf243cd12c8a95fb4826add7923e0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00712_a6f058011c4ee218ad6d8035dd968934f}\label{a00712_a6f058011c4ee218ad6d8035dd968934f}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!GetNystagmusDurationSec@{GetNystagmusDurationSec}}
+\index{GetNystagmusDurationSec@{GetNystagmusDurationSec}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{GetNystagmusDurationSec()}{GetNystagmusDurationSec()}}
+{\footnotesize\ttfamily double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Get\+Nystagmus\+Duration\+Sec (\begin{DoxyParamCaption}\item[{double?}]{start\+Min,  }\item[{double?}]{start\+Sec,  }\item[{double?}]{end\+Min,  }\item[{double?}]{end\+Sec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_a6f058011c4ee218ad6d8035dd968934f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00712_addc753a315911029dbfcb6d97636fdc1}\label{a00712_addc753a315911029dbfcb6d97636fdc1}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!InitializeProperties@{InitializeProperties}}
+\index{InitializeProperties@{InitializeProperties}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{InitializeProperties()}{InitializeProperties()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Initialize\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_ab35dfd0dc797b524958e128020bc651d}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+\mbox{\Hypertarget{a00712_ac80965be2a3839ddf444347448333eed}\label{a00712_ac80965be2a3839ddf444347448333eed}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!OpenRecordFromDatabase@{OpenRecordFromDatabase}}
+\index{OpenRecordFromDatabase@{OpenRecordFromDatabase}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{OpenRecordFromDatabase()}{OpenRecordFromDatabase()}}
+{\footnotesize\ttfamily override void Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Open\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_a1a813ed3aacf0d61f3f975dfbdcb4957}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_ac80965be2a3839ddf444347448333eed_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00712_a118b2e386bfd384b4c67b7a1112ce4f8}\label{a00712_a118b2e386bfd384b4c67b7a1112ce4f8}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!UpdateCalorigram@{UpdateCalorigram}}
+\index{UpdateCalorigram@{UpdateCalorigram}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{UpdateCalorigram()}{UpdateCalorigram()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Update\+Calorigram (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{a00712_a8da163581e7d80be91a05ecc4cfba616}{Calorigram\+Type}}}]{cal\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{a00712_a7270a08cf93035ba0bf8a4908bfcf60c}\label{a00712_a7270a08cf93035ba0bf8a4908bfcf60c}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!UpdateRecordInDatabase@{UpdateRecordInDatabase}}
+\index{UpdateRecordInDatabase@{UpdateRecordInDatabase}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{UpdateRecordInDatabase()}{UpdateRecordInDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Update\+Record\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a01000_af93152ba9b77a30902af2bb86f725b1f}{Audiometry.\+View\+Model.\+Tab\+VM}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00712_a7270a08cf93035ba0bf8a4908bfcf60c_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00712_a179cb244a8a716ef6a2e71e78e21a759}\label{a00712_a179cb244a8a716ef6a2e71e78e21a759}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!bcModel@{bcModel}}
+\index{bcModel@{bcModel}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{bcModel}{bcModel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00604}{Tab\+Model}} Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+bc\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_ac44d1681ffbba6001dc07ede3b750ae5}\label{a00712_ac44d1681ffbba6001dc07ede3b750ae5}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!canalParesis@{canalParesis}}
+\index{canalParesis@{canalParesis}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{canalParesis}{canalParesis}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+canal\+Paresis\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_ad1b4f9f664e57696494da00e250fb164}\label{a00712_ad1b4f9f664e57696494da00e250fb164}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!canalParesisCommand@{canalParesisCommand}}
+\index{canalParesisCommand@{canalParesisCommand}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{canalParesisCommand}{canalParesisCommand}}
+{\footnotesize\ttfamily I\+Command Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+canal\+Paresis\+Command\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_ac7c378db261db901ee37c52ff41ba749}\label{a00712_ac7c378db261db901ee37c52ff41ba749}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!dateCaloricTest@{dateCaloricTest}}
+\index{dateCaloricTest@{dateCaloricTest}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{dateCaloricTest}{dateCaloricTest}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+date\+Caloric\+Test\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a58c9d86ed3dc3b453b400357fbd11b67}\label{a00712_a58c9d86ed3dc3b453b400357fbd11b67}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!dirPrepond@{dirPrepond}}
+\index{dirPrepond@{dirPrepond}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{dirPrepond}{dirPrepond}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+dir\+Prepond\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a7815bcfc7cd0eb24a464078310a7f2f0}\label{a00712_a7815bcfc7cd0eb24a464078310a7f2f0}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!dirPrepondCommand@{dirPrepondCommand}}
+\index{dirPrepondCommand@{dirPrepondCommand}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{dirPrepondCommand}{dirPrepondCommand}}
+{\footnotesize\ttfamily I\+Command Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+dir\+Prepond\+Command\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a09bd76cd59e7e316cd21d71e4e1eb8f1}\label{a00712_a09bd76cd59e7e316cd21d71e4e1eb8f1}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!HAxisMinutesMax@{HAxisMinutesMax}}
+\index{HAxisMinutesMax@{HAxisMinutesMax}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{HAxisMinutesMax}{HAxisMinutesMax}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+H\+Axis\+Minutes\+Max = 4\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_aedd7b93ac865a43ed74d9007b28c4f61}\label{a00712_aedd7b93ac865a43ed74d9007b28c4f61}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!HAxisMinutesMin@{HAxisMinutesMin}}
+\index{HAxisMinutesMin@{HAxisMinutesMin}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{HAxisMinutesMin}{HAxisMinutesMin}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+H\+Axis\+Minutes\+Min = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a0e155c6530353042bb3b82035b426094}\label{a00712_a0e155c6530353042bb3b82035b426094}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!HAxisSecondsMax@{HAxisSecondsMax}}
+\index{HAxisSecondsMax@{HAxisSecondsMax}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{HAxisSecondsMax}{HAxisSecondsMax}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+H\+Axis\+Seconds\+Max = \mbox{\hyperlink{a00712_a09bd76cd59e7e316cd21d71e4e1eb8f1}{H\+Axis\+Minutes\+Max}}$\ast$60\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a6a8b7343c08ad156f3845c403e9da02a}\label{a00712_a6a8b7343c08ad156f3845c403e9da02a}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!HAxisSecondsMin@{HAxisSecondsMin}}
+\index{HAxisSecondsMin@{HAxisSecondsMin}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{HAxisSecondsMin}{HAxisSecondsMin}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+H\+Axis\+Seconds\+Min = \mbox{\hyperlink{a00712_aedd7b93ac865a43ed74d9007b28c4f61}{H\+Axis\+Minutes\+Min}}$\ast$60\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a110337efaec0f75867df12953934a44e}\label{a00712_a110337efaec0f75867df12953934a44e}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!HMinutesStepSize@{HMinutesStepSize}}
+\index{HMinutesStepSize@{HMinutesStepSize}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{HMinutesStepSize}{HMinutesStepSize}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+H\+Minutes\+Step\+Size = 1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a94b631720761cc34934764742256ab0d}\label{a00712_a94b631720761cc34934764742256ab0d}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!HSecondsStepSize@{HSecondsStepSize}}
+\index{HSecondsStepSize@{HSecondsStepSize}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{HSecondsStepSize}{HSecondsStepSize}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+H\+Seconds\+Step\+Size = 20\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a78e7491a26666dde2f40fd20071044ae}\label{a00712_a78e7491a26666dde2f40fd20071044ae}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!isAirTest@{isAirTest}}
+\index{isAirTest@{isAirTest}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{isAirTest}{isAirTest}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+is\+Air\+Test\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a8b8373d9d2e3562c3c5d18488883a6d5}\label{a00712_a8b8373d9d2e3562c3c5d18488883a6d5}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!isCaloricTestConducted@{isCaloricTestConducted}}
+\index{isCaloricTestConducted@{isCaloricTestConducted}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{isCaloricTestConducted}{isCaloricTestConducted}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+is\+Caloric\+Test\+Conducted\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_abbe2476c3d419bf0706d11974ffcab5a}\label{a00712_abbe2476c3d419bf0706d11974ffcab5a}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!isWaterTest@{isWaterTest}}
+\index{isWaterTest@{isWaterTest}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{isWaterTest}{isWaterTest}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+is\+Water\+Test\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_ab97a6f24cd62951f2dab87f603c47fdf}\label{a00712_ab97a6f24cd62951f2dab87f603c47fdf}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndMin30LtEar@{nysEndMin30LtEar}}
+\index{nysEndMin30LtEar@{nysEndMin30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndMin30LtEar}{nysEndMin30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Min30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_ae03bf7b324c975d12becffdde2fc48ac}\label{a00712_ae03bf7b324c975d12becffdde2fc48ac}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndMin30RtEar@{nysEndMin30RtEar}}
+\index{nysEndMin30RtEar@{nysEndMin30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndMin30RtEar}{nysEndMin30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Min30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a21974c2775ab4c76e2852d9abb00289d}\label{a00712_a21974c2775ab4c76e2852d9abb00289d}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndMin44LtEar@{nysEndMin44LtEar}}
+\index{nysEndMin44LtEar@{nysEndMin44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndMin44LtEar}{nysEndMin44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Min44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a3f8bde6d04e0c770180e2d9becc15043}\label{a00712_a3f8bde6d04e0c770180e2d9becc15043}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndMin44RtEar@{nysEndMin44RtEar}}
+\index{nysEndMin44RtEar@{nysEndMin44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndMin44RtEar}{nysEndMin44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Min44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a3e7a28a658a33bc5aa1fed5b909006be}\label{a00712_a3e7a28a658a33bc5aa1fed5b909006be}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndSec30LtEar@{nysEndSec30LtEar}}
+\index{nysEndSec30LtEar@{nysEndSec30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndSec30LtEar}{nysEndSec30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Sec30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_acbbd3b454bd2f977cd06c4241308b8a3}\label{a00712_acbbd3b454bd2f977cd06c4241308b8a3}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndSec30RtEar@{nysEndSec30RtEar}}
+\index{nysEndSec30RtEar@{nysEndSec30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndSec30RtEar}{nysEndSec30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Sec30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_acf8678d4bb6c517d67837fd8a68863b1}\label{a00712_acf8678d4bb6c517d67837fd8a68863b1}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndSec44LtEar@{nysEndSec44LtEar}}
+\index{nysEndSec44LtEar@{nysEndSec44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndSec44LtEar}{nysEndSec44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Sec44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_aa5cf710384a2479ef962ded17dfc5d4b}\label{a00712_aa5cf710384a2479ef962ded17dfc5d4b}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysEndSec44RtEar@{nysEndSec44RtEar}}
+\index{nysEndSec44RtEar@{nysEndSec44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysEndSec44RtEar}{nysEndSec44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+End\+Sec44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_af12dd4647970cc3f70dc1c0ac0e9e883}\label{a00712_af12dd4647970cc3f70dc1c0ac0e9e883}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartMin30LtEar@{nysStartMin30LtEar}}
+\index{nysStartMin30LtEar@{nysStartMin30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartMin30LtEar}{nysStartMin30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Min30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a6243f87e7be622e01b1b7f6e82f48652}\label{a00712_a6243f87e7be622e01b1b7f6e82f48652}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartMin30RtEar@{nysStartMin30RtEar}}
+\index{nysStartMin30RtEar@{nysStartMin30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartMin30RtEar}{nysStartMin30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Min30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a67c593e38e6d5d3a6fbc497cc13fe6c8}\label{a00712_a67c593e38e6d5d3a6fbc497cc13fe6c8}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartMin44LtEar@{nysStartMin44LtEar}}
+\index{nysStartMin44LtEar@{nysStartMin44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartMin44LtEar}{nysStartMin44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Min44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a5885d2803a636a2f172b15fc1b03b024}\label{a00712_a5885d2803a636a2f172b15fc1b03b024}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartMin44RtEar@{nysStartMin44RtEar}}
+\index{nysStartMin44RtEar@{nysStartMin44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartMin44RtEar}{nysStartMin44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Min44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a3be78bb93fb145ac91cd870e493200fa}\label{a00712_a3be78bb93fb145ac91cd870e493200fa}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartSec30LtEar@{nysStartSec30LtEar}}
+\index{nysStartSec30LtEar@{nysStartSec30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartSec30LtEar}{nysStartSec30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Sec30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a2f6971f285fa10429df143b18064b11f}\label{a00712_a2f6971f285fa10429df143b18064b11f}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartSec30RtEar@{nysStartSec30RtEar}}
+\index{nysStartSec30RtEar@{nysStartSec30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartSec30RtEar}{nysStartSec30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Sec30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_ae637ae69afbf2e217ae1303b76f82740}\label{a00712_ae637ae69afbf2e217ae1303b76f82740}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartSec44LtEar@{nysStartSec44LtEar}}
+\index{nysStartSec44LtEar@{nysStartSec44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartSec44LtEar}{nysStartSec44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Sec44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a04ad1f327ddd3c45c7a4b518de4a5d8d}\label{a00712_a04ad1f327ddd3c45c7a4b518de4a5d8d}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!nysStartSec44RtEar@{nysStartSec44RtEar}}
+\index{nysStartSec44RtEar@{nysStartSec44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{nysStartSec44RtEar}{nysStartSec44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+nys\+Start\+Sec44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_aa20a39892c87be4891cb21c605afbf6c}\label{a00712_aa20a39892c87be4891cb21c605afbf6c}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!VAxisMax@{VAxisMax}}
+\index{VAxisMax@{VAxisMax}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{VAxisMax}{VAxisMax}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+V\+Axis\+Max = 10\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_a12657975b75b07a5153dfa645f279c36}\label{a00712_a12657975b75b07a5153dfa645f279c36}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!VAxisMin@{VAxisMin}}
+\index{VAxisMin@{VAxisMin}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{VAxisMin}{VAxisMin}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+V\+Axis\+Min = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00712_ab3ddc18df98d35e667a74b89626de037}\label{a00712_ab3ddc18df98d35e667a74b89626de037}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!VStepSize@{VStepSize}}
+\index{VStepSize@{VStepSize}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{VStepSize}{VStepSize}}
+{\footnotesize\ttfamily const double Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+V\+Step\+Size = 1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{a00712_af1f50bdb6efeda0b876d4b5c7ed2bfef}\label{a00712_af1f50bdb6efeda0b876d4b5c7ed2bfef}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!Calorigram30@{Calorigram30}}
+\index{Calorigram30@{Calorigram30}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{Calorigram30}{Calorigram30}}
+{\footnotesize\ttfamily Plot\+Model Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Calorigram30\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\mbox{\Hypertarget{a00712_a4c1f0da0f9ee855b467faa169de03de3}\label{a00712_a4c1f0da0f9ee855b467faa169de03de3}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!Calorigram44@{Calorigram44}}
+\index{Calorigram44@{Calorigram44}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{Calorigram44}{Calorigram44}}
+{\footnotesize\ttfamily Plot\+Model Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Calorigram44\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\mbox{\Hypertarget{a00712_a496dde787f19dba61945cef5e4713562}\label{a00712_a496dde787f19dba61945cef5e4713562}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!CanalParesis@{CanalParesis}}
+\index{CanalParesis@{CanalParesis}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{CanalParesis}{CanalParesis}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Canal\+Paresis\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_ae84c8b185f2363562a33809bbeed8395}\label{a00712_ae84c8b185f2363562a33809bbeed8395}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!CanalParesisCommand@{CanalParesisCommand}}
+\index{CanalParesisCommand@{CanalParesisCommand}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{CanalParesisCommand}{CanalParesisCommand}}
+{\footnotesize\ttfamily I\+Command?? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Canal\+Paresis\+Command\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00712_a120004a6739b4f9156264fc26810a417}\label{a00712_a120004a6739b4f9156264fc26810a417}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!DateCaloricTest@{DateCaloricTest}}
+\index{DateCaloricTest@{DateCaloricTest}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{DateCaloricTest}{DateCaloricTest}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Date\+Caloric\+Test\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a590aa02144644b0957ebe9e8c67d096f}\label{a00712_a590aa02144644b0957ebe9e8c67d096f}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!DirPrepond@{DirPrepond}}
+\index{DirPrepond@{DirPrepond}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{DirPrepond}{DirPrepond}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Dir\+Prepond\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a65d9f568ed43e91e06aaef6174bd4c16}\label{a00712_a65d9f568ed43e91e06aaef6174bd4c16}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!DirPrepondCommand@{DirPrepondCommand}}
+\index{DirPrepondCommand@{DirPrepondCommand}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{DirPrepondCommand}{DirPrepondCommand}}
+{\footnotesize\ttfamily I\+Command?? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Dir\+Prepond\+Command\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00712_a7caf278a5babe89791440e3ac2b74c5d}\label{a00712_a7caf278a5babe89791440e3ac2b74c5d}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!IsAirTest@{IsAirTest}}
+\index{IsAirTest@{IsAirTest}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{IsAirTest}{IsAirTest}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Is\+Air\+Test\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a19756d8d89762dd4820086bbb02b7937}\label{a00712_a19756d8d89762dd4820086bbb02b7937}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!IsCaloricTestConducted@{IsCaloricTestConducted}}
+\index{IsCaloricTestConducted@{IsCaloricTestConducted}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{IsCaloricTestConducted}{IsCaloricTestConducted}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Is\+Caloric\+Test\+Conducted\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a4339b76bbd63cdecbd373162490aa427}\label{a00712_a4339b76bbd63cdecbd373162490aa427}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!IsWaterTest@{IsWaterTest}}
+\index{IsWaterTest@{IsWaterTest}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{IsWaterTest}{IsWaterTest}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Is\+Water\+Test\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a01844a8caf0d2a931523b1d43db7566d}\label{a00712_a01844a8caf0d2a931523b1d43db7566d}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndMin30LtEar@{NysEndMin30LtEar}}
+\index{NysEndMin30LtEar@{NysEndMin30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndMin30LtEar}{NysEndMin30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Min30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a8fde69ce152fea6f702b64c8c15d9373}\label{a00712_a8fde69ce152fea6f702b64c8c15d9373}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndMin30RtEar@{NysEndMin30RtEar}}
+\index{NysEndMin30RtEar@{NysEndMin30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndMin30RtEar}{NysEndMin30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Min30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a52f0a74c22751655057486060a3da8e7}\label{a00712_a52f0a74c22751655057486060a3da8e7}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndMin44LtEar@{NysEndMin44LtEar}}
+\index{NysEndMin44LtEar@{NysEndMin44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndMin44LtEar}{NysEndMin44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Min44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_ab70e69d81b43431f24f2a7db4ce3f9f3}\label{a00712_ab70e69d81b43431f24f2a7db4ce3f9f3}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndMin44RtEar@{NysEndMin44RtEar}}
+\index{NysEndMin44RtEar@{NysEndMin44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndMin44RtEar}{NysEndMin44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Min44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a6c1b575c321311af327b5cd28ad47e5a}\label{a00712_a6c1b575c321311af327b5cd28ad47e5a}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndSec30LtEar@{NysEndSec30LtEar}}
+\index{NysEndSec30LtEar@{NysEndSec30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndSec30LtEar}{NysEndSec30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Sec30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a1379027b97d1760dd82f19d406b19716}\label{a00712_a1379027b97d1760dd82f19d406b19716}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndSec30RtEar@{NysEndSec30RtEar}}
+\index{NysEndSec30RtEar@{NysEndSec30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndSec30RtEar}{NysEndSec30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Sec30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a1d5164c6c55ee1ad9c7221f852a8107f}\label{a00712_a1d5164c6c55ee1ad9c7221f852a8107f}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndSec44LtEar@{NysEndSec44LtEar}}
+\index{NysEndSec44LtEar@{NysEndSec44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndSec44LtEar}{NysEndSec44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Sec44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a3424aad0a39b785faff433f84c9cf3bb}\label{a00712_a3424aad0a39b785faff433f84c9cf3bb}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysEndSec44RtEar@{NysEndSec44RtEar}}
+\index{NysEndSec44RtEar@{NysEndSec44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysEndSec44RtEar}{NysEndSec44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+End\+Sec44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_abf8ac0fbc518c11137ac89273c468926}\label{a00712_abf8ac0fbc518c11137ac89273c468926}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartMin30LtEar@{NysStartMin30LtEar}}
+\index{NysStartMin30LtEar@{NysStartMin30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartMin30LtEar}{NysStartMin30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Min30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a4d095fa0927eb26c9e8efd5a68b0c7a1}\label{a00712_a4d095fa0927eb26c9e8efd5a68b0c7a1}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartMin30RtEar@{NysStartMin30RtEar}}
+\index{NysStartMin30RtEar@{NysStartMin30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartMin30RtEar}{NysStartMin30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Min30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a9afec9ba5ddb954af3e8776d7dbe3a0a}\label{a00712_a9afec9ba5ddb954af3e8776d7dbe3a0a}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartMin44LtEar@{NysStartMin44LtEar}}
+\index{NysStartMin44LtEar@{NysStartMin44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartMin44LtEar}{NysStartMin44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Min44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_ac5497a3cfbd9532deb3403dcdd29b216}\label{a00712_ac5497a3cfbd9532deb3403dcdd29b216}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartMin44RtEar@{NysStartMin44RtEar}}
+\index{NysStartMin44RtEar@{NysStartMin44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartMin44RtEar}{NysStartMin44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Min44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_ae4a54c61c7966de937d8efade8169ca5}\label{a00712_ae4a54c61c7966de937d8efade8169ca5}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartSec30LtEar@{NysStartSec30LtEar}}
+\index{NysStartSec30LtEar@{NysStartSec30LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartSec30LtEar}{NysStartSec30LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Sec30\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_a4108cb26dc0753e961711fd6b3aaf32d}\label{a00712_a4108cb26dc0753e961711fd6b3aaf32d}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartSec30RtEar@{NysStartSec30RtEar}}
+\index{NysStartSec30RtEar@{NysStartSec30RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartSec30RtEar}{NysStartSec30RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Sec30\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_adabe9dc2e32e7cfe97b3aa5b63c7405e}\label{a00712_adabe9dc2e32e7cfe97b3aa5b63c7405e}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartSec44LtEar@{NysStartSec44LtEar}}
+\index{NysStartSec44LtEar@{NysStartSec44LtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartSec44LtEar}{NysStartSec44LtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Sec44\+Lt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00712_aca8b80acc0ce211287120db3fa97a1e8}\label{a00712_aca8b80acc0ce211287120db3fa97a1e8}} 
+\index{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}!NysStartSec44RtEar@{NysStartSec44RtEar}}
+\index{NysStartSec44RtEar@{NysStartSec44RtEar}!Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM@{Audiometry.ViewModel.BithermalCaloricVM.BithermalCaloricTabVM}}
+\doxysubsubsection{\texorpdfstring{NysStartSec44RtEar}{NysStartSec44RtEar}}
+{\footnotesize\ttfamily double? Audiometry.\+View\+Model.\+Bithermal\+Caloric\+V\+M.\+Bithermal\+Caloric\+Tab\+V\+M.\+Nys\+Start\+Sec44\+Rt\+Ear\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+View\+Model/\+Bithermal\+Caloric\+V\+M/\mbox{\hyperlink{a00218}{Bithermal\+Caloric\+Tab\+V\+M.\+cs}}\end{DoxyCompactItemize}

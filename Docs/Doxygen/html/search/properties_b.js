@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['name_2238',['Name',['../a00524.html#a7b936071a9890c0df09aab8c30fb4909',1,'Audiometry.Database.DbColumn.Name()'],['../a00744.html#a6a16252412adab771a25154e9d0f9b12',1,'Audiometry.ViewModel.PatientVM.Test.Name()']]],
+  ['nysendmin30ltear_2239',['NysEndMin30LtEar',['../a00712.html#a01844a8caf0d2a931523b1d43db7566d',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysendmin30rtear_2240',['NysEndMin30RtEar',['../a00712.html#a8fde69ce152fea6f702b64c8c15d9373',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysendmin44ltear_2241',['NysEndMin44LtEar',['../a00712.html#a52f0a74c22751655057486060a3da8e7',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysendmin44rtear_2242',['NysEndMin44RtEar',['../a00712.html#ab70e69d81b43431f24f2a7db4ce3f9f3',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysendsec30ltear_2243',['NysEndSec30LtEar',['../a00712.html#a6c1b575c321311af327b5cd28ad47e5a',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysendsec30rtear_2244',['NysEndSec30RtEar',['../a00712.html#a1379027b97d1760dd82f19d406b19716',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysendsec44ltear_2245',['NysEndSec44LtEar',['../a00712.html#a1d5164c6c55ee1ad9c7221f852a8107f',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysendsec44rtear_2246',['NysEndSec44RtEar',['../a00712.html#a3424aad0a39b785faff433f84c9cf3bb',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartmin30ltear_2247',['NysStartMin30LtEar',['../a00712.html#abf8ac0fbc518c11137ac89273c468926',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartmin30rtear_2248',['NysStartMin30RtEar',['../a00712.html#a4d095fa0927eb26c9e8efd5a68b0c7a1',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartmin44ltear_2249',['NysStartMin44LtEar',['../a00712.html#a9afec9ba5ddb954af3e8776d7dbe3a0a',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartmin44rtear_2250',['NysStartMin44RtEar',['../a00712.html#ac5497a3cfbd9532deb3403dcdd29b216',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartsec30ltear_2251',['NysStartSec30LtEar',['../a00712.html#ae4a54c61c7966de937d8efade8169ca5',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartsec30rtear_2252',['NysStartSec30RtEar',['../a00712.html#a4108cb26dc0753e961711fd6b3aaf32d',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartsec44ltear_2253',['NysStartSec44LtEar',['../a00712.html#adabe9dc2e32e7cfe97b3aa5b63c7405e',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]],
+  ['nysstartsec44rtear_2254',['NysStartSec44RtEar',['../a00712.html#aca8b80acc0ce211287120db3fa97a1e8',1,'Audiometry::ViewModel::BithermalCaloricVM::BithermalCaloricTabVM']]]
+];
