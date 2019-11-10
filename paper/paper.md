@@ -45,4 +45,8 @@ The current functionality of the application can be extended and enhanced in var
 
 ![Patient interface.](patient1.png)
 
+# Installation
+
+Audiometry can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer directory of the repository.
+
 # References
