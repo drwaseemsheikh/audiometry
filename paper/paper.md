@@ -35,6 +35,12 @@ The current functionality of the application can be extended and enhanced in var
 
 ![Pure tone audiogram interface.](puretone1.png)
 
+![Speech audiometry interface.](speech1.png)
+
 ![Impedance audiometry interface.](impedance1.png)
+
+![Bithermal caloric interface.](calorigram1.png)
+
+![Search interface.](search1.png)
 
 # References
