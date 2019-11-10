@@ -33,6 +33,7 @@ The current functionality of the application can be extended and enhanced in var
 
 # Figures
 
-Figures can be included like this: ![Pure tone audiogram interface.](puretone1.png)
+![Pure tone audiogram interface.](puretone1.png)
+![Impedance audiometry interface.](impedance1.png)
 
 # References
