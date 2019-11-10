@@ -43,4 +43,6 @@ The current functionality of the application can be extended and enhanced in var
 
 ![Search interface.](search1.png)
 
+![Patient interface.](patient1.png)
+
 # References
