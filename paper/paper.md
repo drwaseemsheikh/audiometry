@@ -35,7 +35,6 @@ The current functionality of the application can be extended and enhanced in var
 
 ![Pure tone audiogram interface.](puretone1.png)
 
-
 ![Impedance audiometry interface.](impedance1.png)
 
 # References
