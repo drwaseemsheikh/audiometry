@@ -1,5 +1,5 @@
 ---
-title: 'A model-view-viewModel (MVVM) application framework for hearing impairment diagnosis'
+title: 'Audiometry: A model-view-viewModel (MVVM) application framework for hearing impairment diagnosis'
 tags:
   - C#
   - WPF
