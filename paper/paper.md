@@ -47,6 +47,6 @@ The current functionality of the application can be extended and enhanced in var
 
 # Installation
 
-Audiometry can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer directory of the repository.
+Audiometry can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer directory of the repository. To test the application, please follow the steps delineated in test.md file under the test folder.
 
 # References
