@@ -45,6 +45,9 @@ The current functionality of the application can be extended and enhanced in var
 
 ![Patient interface.](patient1.png)
 
+# Documentation
+The Doxygen generated API documentation for ``Audiometry`` can be found under the Docs folder.
+
 # Installation
 
 ``Audiometry`` can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer directory of the repository. To test the application, please follow the steps delineated in test.md file under the test folder.
