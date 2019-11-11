@@ -33,7 +33,7 @@ The current functionality of the application can be extended and enhanced in var
 
 # Figures
 
-![Pure tone audiogram interface.](puretone1.png)
+![Pure-tone audiogram interface.](puretone1.png)
 
 ![Speech audiometry interface.](speech1.png)
 
