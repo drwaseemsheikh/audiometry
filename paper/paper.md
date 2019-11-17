@@ -13,7 +13,7 @@ authors:
   - name: Nadeem Sheikh
     affiliation: 2
 affiliations:
- - name: Associate Professor, Oregon Institute of Technology, USA
+ - name: Associate Professor, CSET Department, Oregon Institute of Technology, USA
    index: 1
  - name: Assistant Professor of ENT, CMH, Abbottabad, Pakistan
    index: 2
