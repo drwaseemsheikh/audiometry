@@ -37,7 +37,7 @@ Following are examples of some of the research questions that can be investigate
 
 3.	The software can be used to measure the efficacy of a certain treatment, intervention, or equipment on the progression of a hearing loss.
 
-The current functionality of the application can be extended and enhanced in various ways. Some important future research directions include adding additional hearing impairment diagnostic intelligence into the application using machine learning and artificial intelligence techniques to increase the accuracy of diagnosis, and a client-server based architecture of the application.
+The current functionality of the application can be extended and enhanced in various ways. Some important future research directions include adding additional hearing impairment diagnostic intelligence into the application, using machine learning and artificial intelligence techniques to increase the accuracy of diagnosis, and a client-server based architecture of the application.
 
 # Figures
 
