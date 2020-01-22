@@ -1,0 +1,236 @@
+\hypertarget{a00576}{}\doxysection{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model Class Reference}
+\label{a00576}\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+
+
+Inheritance diagram for Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=241pt]{a00575}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00574}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00576_abee35307ffeb7ff4dc594f2b0405bc37}{Stenger\+Model}} (\mbox{\hyperlink{a00996}{Sub\+Tab\+VM}} vm)
+\item 
+override bool \mbox{\hyperlink{a00576_aa1e784ccbecb9e0b6aec303e5a306074}{Add\+Record\+To\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override bool \mbox{\hyperlink{a00576_a7b24944833b110c7383889dbf2262927}{Update\+Record\+In\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override void \mbox{\hyperlink{a00576_a032abf109365a9841828182cacaad3c6}{Open\+Record\+From\+Database}} (string acc\+Number, string exam\+Date, out bool test\+Conducted)
+\item 
+override bool \mbox{\hyperlink{a00576_ac37a922daf609f35d5b63e465812ebb9}{Delete\+Record\+From\+Database}} (string acc\+Number, string exam\+Date)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{a00576_a5d1242491429bf4751db3fc4938fe39d}{Get\+View\+Model\+Property\+Values}} (string acc\+Number, string exam\+Date, bool test\+Conducted)
+\item 
+string \mbox{\hyperlink{a00576_a52b2b5adf6df0e85e497a468b580065b}{Construct\+Insert\+Query}} ()
+\item 
+string \mbox{\hyperlink{a00576_a4847d63dd755bc029939b1b815376b04}{Construct\+Update\+Query}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{a00576_aa1fec1017e12c577662625c10181f88d}{Execute\+Query}} (string query, out string msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00576_a36225a23d9ccc3dc73397ab944e580fe}{acc\+Number\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00576_a0a33a83214f2d800580e444854fe7bfc}{date\+Of\+Exam\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00576_af734db5d2ef0f065358f9475dfc0d64c}{is\+Test\+Conducted\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00576_a385054cad7fe8c89e0a6b0f13b78bec2}{stgr\+Rt\+Ear\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00576_a003d37822a6034857166fd4cd79c5a94}{stgr\+Lt\+Ear\+Col}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const string \mbox{\hyperlink{a00576_a54dc16c588c59001ac8aca954dffc5ea}{db\+Table}} = \char`\"{}Stenger\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00576_abee35307ffeb7ff4dc594f2b0405bc37}\label{a00576_abee35307ffeb7ff4dc594f2b0405bc37}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!StengerModel@{StengerModel}}
+\index{StengerModel@{StengerModel}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{StengerModel()}{StengerModel()}}
+{\footnotesize\ttfamily Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Stenger\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{a00996}{Sub\+Tab\+VM}}}]{vm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00576_aa1e784ccbecb9e0b6aec303e5a306074}\label{a00576_aa1e784ccbecb9e0b6aec303e5a306074}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!AddRecordToDatabase@{AddRecordToDatabase}}
+\index{AddRecordToDatabase@{AddRecordToDatabase}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{AddRecordToDatabase()}{AddRecordToDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Add\+Record\+To\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a906a54f7a56f3e6806da1120413a3245}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00576_aa1e784ccbecb9e0b6aec303e5a306074_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00576_a52b2b5adf6df0e85e497a468b580065b}\label{a00576_a52b2b5adf6df0e85e497a468b580065b}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!ConstructInsertQuery@{ConstructInsertQuery}}
+\index{ConstructInsertQuery@{ConstructInsertQuery}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{ConstructInsertQuery()}{ConstructInsertQuery()}}
+{\footnotesize\ttfamily string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Construct\+Insert\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00576_a52b2b5adf6df0e85e497a468b580065b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00576_a4847d63dd755bc029939b1b815376b04}\label{a00576_a4847d63dd755bc029939b1b815376b04}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!ConstructUpdateQuery@{ConstructUpdateQuery}}
+\index{ConstructUpdateQuery@{ConstructUpdateQuery}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{ConstructUpdateQuery()}{ConstructUpdateQuery()}}
+{\footnotesize\ttfamily string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Construct\+Update\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00576_a4847d63dd755bc029939b1b815376b04_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00576_ac37a922daf609f35d5b63e465812ebb9}\label{a00576_ac37a922daf609f35d5b63e465812ebb9}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!DeleteRecordFromDatabase@{DeleteRecordFromDatabase}}
+\index{DeleteRecordFromDatabase@{DeleteRecordFromDatabase}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{DeleteRecordFromDatabase()}{DeleteRecordFromDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Delete\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_ae989e5a371ecdff74637cc369027e9a9}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+\mbox{\Hypertarget{a00576_aa1fec1017e12c577662625c10181f88d}\label{a00576_aa1fec1017e12c577662625c10181f88d}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!ExecuteQuery@{ExecuteQuery}}
+\index{ExecuteQuery@{ExecuteQuery}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{ExecuteQuery()}{ExecuteQuery()}}
+{\footnotesize\ttfamily static bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Execute\+Query (\begin{DoxyParamCaption}\item[{string}]{query,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00576_aa1fec1017e12c577662625c10181f88d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00576_a5d1242491429bf4751db3fc4938fe39d}\label{a00576_a5d1242491429bf4751db3fc4938fe39d}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!GetViewModelPropertyValues@{GetViewModelPropertyValues}}
+\index{GetViewModelPropertyValues@{GetViewModelPropertyValues}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{GetViewModelPropertyValues()}{GetViewModelPropertyValues()}}
+{\footnotesize\ttfamily void Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Get\+View\+Model\+Property\+Values (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00576_a5d1242491429bf4751db3fc4938fe39d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00576_a032abf109365a9841828182cacaad3c6}\label{a00576_a032abf109365a9841828182cacaad3c6}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!OpenRecordFromDatabase@{OpenRecordFromDatabase}}
+\index{OpenRecordFromDatabase@{OpenRecordFromDatabase}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{OpenRecordFromDatabase()}{OpenRecordFromDatabase()}}
+{\footnotesize\ttfamily override void Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Open\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{out bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a78486e0ac35f4d032bd8aa42eb70481e}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+\mbox{\Hypertarget{a00576_a7b24944833b110c7383889dbf2262927}\label{a00576_a7b24944833b110c7383889dbf2262927}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!UpdateRecordInDatabase@{UpdateRecordInDatabase}}
+\index{UpdateRecordInDatabase@{UpdateRecordInDatabase}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{UpdateRecordInDatabase()}{UpdateRecordInDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+Update\+Record\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a85d204be50d22afb5c316945b85eed46}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00576_a7b24944833b110c7383889dbf2262927_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00576_a36225a23d9ccc3dc73397ab944e580fe}\label{a00576_a36225a23d9ccc3dc73397ab944e580fe}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!accNumberCol@{accNumberCol}}
+\index{accNumberCol@{accNumberCol}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{accNumberCol}{accNumberCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+acc\+Number\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00576_a0a33a83214f2d800580e444854fe7bfc}\label{a00576_a0a33a83214f2d800580e444854fe7bfc}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!dateOfExamCol@{dateOfExamCol}}
+\index{dateOfExamCol@{dateOfExamCol}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{dateOfExamCol}{dateOfExamCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+date\+Of\+Exam\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00576_a54dc16c588c59001ac8aca954dffc5ea}\label{a00576_a54dc16c588c59001ac8aca954dffc5ea}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!dbTable@{dbTable}}
+\index{dbTable@{dbTable}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{dbTable}{dbTable}}
+{\footnotesize\ttfamily const string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+db\+Table = \char`\"{}Stenger\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00576_af734db5d2ef0f065358f9475dfc0d64c}\label{a00576_af734db5d2ef0f065358f9475dfc0d64c}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!isTestConductedCol@{isTestConductedCol}}
+\index{isTestConductedCol@{isTestConductedCol}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{isTestConductedCol}{isTestConductedCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+is\+Test\+Conducted\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00576_a003d37822a6034857166fd4cd79c5a94}\label{a00576_a003d37822a6034857166fd4cd79c5a94}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!stgrLtEarCol@{stgrLtEarCol}}
+\index{stgrLtEarCol@{stgrLtEarCol}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{stgrLtEarCol}{stgrLtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+stgr\+Lt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00576_a385054cad7fe8c89e0a6b0f13b78bec2}\label{a00576_a385054cad7fe8c89e0a6b0f13b78bec2}} 
+\index{Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}!stgrRtEarCol@{stgrRtEarCol}}
+\index{stgrRtEarCol@{stgrRtEarCol}!Audiometry.Model.SubTabModel.StengerModel@{Audiometry.Model.SubTabModel.StengerModel}}
+\doxysubsubsection{\texorpdfstring{stgrRtEarCol}{stgrRtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Stenger\+Model.\+stgr\+Rt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+Model/\+Sub\+Tab\+Model/\mbox{\hyperlink{a00083}{Stenger\+Model.\+cs}}\end{DoxyCompactItemize}

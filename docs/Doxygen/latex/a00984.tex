@@ -1,0 +1,361 @@
+\hypertarget{a00984}{}\doxysection{Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+VM Class Reference}
+\label{a00984}\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+
+
+Inheritance diagram for Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00983}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+VM\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00982}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{a00984_aadc288745a631dee737a3fa0e9e7e64d}{Action\+Type}} \{ \mbox{\hyperlink{a00984_aadc288745a631dee737a3fa0e9e7e64da1479485844476c9f7d596a40ca8be3f5}{Action\+Type.\+C\+A\+N\+C\+E\+L\+\_\+\+A\+C\+T\+I\+ON}}, 
+\mbox{\hyperlink{a00984_aadc288745a631dee737a3fa0e9e7e64da322c95772f04b4518b838af05408cde4}{Action\+Type.\+O\+P\+E\+N\+\_\+\+A\+C\+T\+I\+ON}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00984_acf6c3492b062c89dfb9dedf4ab0805bd}{Search\+Window\+VM}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{a00984_aa913c7a25364edcc0509b648b55c0b1b}{Account\+Number\+Search}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00984_a7ba4cb26e372f8fcf659325aa14ca85a}{First\+Name\+Search}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00984_a3618d12735dd67f24aaed6da366e2d97}{Last\+Name\+Search}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Date\+Time \mbox{\hyperlink{a00984_a60c16912fb43f0f95f27e6fb3bc7fb7e}{Exam\+Date\+Start}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Date\+Time \mbox{\hyperlink{a00984_aa84496a633f97db5f47b554853161c83}{Exam\+Date\+End}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Observable\+Collection$<$ \mbox{\hyperlink{a00980}{Patient}} $>$ \mbox{\hyperlink{a00984_ad02ec5daaf34b4e1e0041538303daff2}{Patient\+Records}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+I\+Command?? \mbox{\hyperlink{a00984_ad93cd7d954df9816e7817e9d682d8c23}{Search\+Command}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+I\+Command?? \mbox{\hyperlink{a00984_a3ea8dd82de2a91622492efa24a307b5f}{Open\+Command}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Action \mbox{\hyperlink{a00984_ad3d5f1be8ae746e79e5846e8fa2b359a}{Close\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{a00984_aadc288745a631dee737a3fa0e9e7e64d}{Action\+Type}} \mbox{\hyperlink{a00984_a3c8f3d0a7c89c0384168d00a93fb4808}{Search\+Window\+Action}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{a00984_afee7df79ff5e9504c27460449cd1fcf3}{Is\+Record\+Selected}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \mbox{\hyperlink{a00984_a3fc94cd42cb6b25feb281e60b4f7bf12}{Account\+Number\+Selected}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Date\+Time \mbox{\hyperlink{a00984_ac247be0994c30b91a5a0c1a85fc4d700}{Exam\+Date\+Selected}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{a00984_ac3b244f1690082925973626add4fb2d0}{Search\+Exam\+Record}} ()
+\item 
+string \mbox{\hyperlink{a00984_abec4a10f304819bc35a419c5cc42348f}{Construct\+Search\+Query}} ()
+\item 
+bool \mbox{\hyperlink{a00984_a61d09f015950258ddf2a2414fb021d5b}{Can\+Search\+Exam\+Record\+Execute}} ()
+\item 
+void \mbox{\hyperlink{a00984_a9688cc64679c92e468e4cf6cd8307e26}{Open\+Exam\+Record}} ()
+\item 
+bool \mbox{\hyperlink{a00984_a0585d1afc339c5b4af10ee5589e35d56}{Can\+Open\+Exam\+Record\+Execute}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{a00984_aff8a3f5e96e585528ecacbf6419d435a}{account\+Number\+Search}}
+\item 
+string \mbox{\hyperlink{a00984_ad23eba38ce398365e4bfad2d13512350}{first\+Name\+Search}}
+\item 
+string \mbox{\hyperlink{a00984_a5b15cf6976cb8d835b8229058a847408}{last\+Name\+Search}}
+\item 
+Date\+Time \mbox{\hyperlink{a00984_a147c0ab793019c12cf120d4ff661bc4a}{exam\+Date\+Start}}
+\item 
+Date\+Time \mbox{\hyperlink{a00984_a90ceab2ff67f9f48ea3665bf56c34147}{exam\+Date\+End}}
+\item 
+Observable\+Collection$<$ \mbox{\hyperlink{a00980}{Patient}} $>$ \mbox{\hyperlink{a00984_aa0f452689f97a4eb14559cecc7ad6531}{patient\+Records}}
+\item 
+I\+Command \mbox{\hyperlink{a00984_a851fa9d765437875cce1852bdd979238}{search\+Command}}
+\item 
+I\+Command \mbox{\hyperlink{a00984_ab2ccf5c42943961c741426a42eadaab8}{open\+Command}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const string \mbox{\hyperlink{a00984_aa6d75bd119347b005f95c1e16f2cecc5}{patient\+Table}} = \char`\"{}Patient\+Info\char`\"{}
+\item 
+const string \mbox{\hyperlink{a00984_a1b54a12a3f4012eae45c3b4044039700}{account\+Number\+Col}} = \char`\"{}Acc\+Number\char`\"{}
+\item 
+const string \mbox{\hyperlink{a00984_a03204381ba10f8a28cea0670481e1634}{first\+Name\+Col}} = \char`\"{}First\+Name\char`\"{}
+\item 
+const string \mbox{\hyperlink{a00984_ad8c7ae8e4eeb7155f499452a9d08af0e}{last\+Name\+Col}} = \char`\"{}Last\+Name\char`\"{}
+\item 
+const string \mbox{\hyperlink{a00984_aa6a5937596e22781ed61a053a92f2b3d}{exam\+Date\+Col}} = \char`\"{}Date\+Of\+Exam\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{a00984_aadc288745a631dee737a3fa0e9e7e64d}\label{a00984_aadc288745a631dee737a3fa0e9e7e64d}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!ActionType@{ActionType}}
+\index{ActionType@{ActionType}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{ActionType}{ActionType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{a00984_aadc288745a631dee737a3fa0e9e7e64d}{Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Action\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CANCEL\_ACTION@{CANCEL\_ACTION}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!CANCEL\_ACTION@{CANCEL\_ACTION}}}\mbox{\Hypertarget{a00984_aadc288745a631dee737a3fa0e9e7e64da1479485844476c9f7d596a40ca8be3f5}\label{a00984_aadc288745a631dee737a3fa0e9e7e64da1479485844476c9f7d596a40ca8be3f5}} 
+C\+A\+N\+C\+E\+L\+\_\+\+A\+C\+T\+I\+ON&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OPEN\_ACTION@{OPEN\_ACTION}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!OPEN\_ACTION@{OPEN\_ACTION}}}\mbox{\Hypertarget{a00984_aadc288745a631dee737a3fa0e9e7e64da322c95772f04b4518b838af05408cde4}\label{a00984_aadc288745a631dee737a3fa0e9e7e64da322c95772f04b4518b838af05408cde4}} 
+O\+P\+E\+N\+\_\+\+A\+C\+T\+I\+ON&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00984_acf6c3492b062c89dfb9dedf4ab0805bd}\label{a00984_acf6c3492b062c89dfb9dedf4ab0805bd}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!SearchWindowVM@{SearchWindowVM}}
+\index{SearchWindowVM@{SearchWindowVM}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{SearchWindowVM()}{SearchWindowVM()}}
+{\footnotesize\ttfamily Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Search\+Window\+VM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00984_a0585d1afc339c5b4af10ee5589e35d56}\label{a00984_a0585d1afc339c5b4af10ee5589e35d56}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!CanOpenExamRecordExecute@{CanOpenExamRecordExecute}}
+\index{CanOpenExamRecordExecute@{CanOpenExamRecordExecute}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{CanOpenExamRecordExecute()}{CanOpenExamRecordExecute()}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Can\+Open\+Exam\+Record\+Execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_a61d09f015950258ddf2a2414fb021d5b}\label{a00984_a61d09f015950258ddf2a2414fb021d5b}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!CanSearchExamRecordExecute@{CanSearchExamRecordExecute}}
+\index{CanSearchExamRecordExecute@{CanSearchExamRecordExecute}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{CanSearchExamRecordExecute()}{CanSearchExamRecordExecute()}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Can\+Search\+Exam\+Record\+Execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_abec4a10f304819bc35a419c5cc42348f}\label{a00984_abec4a10f304819bc35a419c5cc42348f}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!ConstructSearchQuery@{ConstructSearchQuery}}
+\index{ConstructSearchQuery@{ConstructSearchQuery}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{ConstructSearchQuery()}{ConstructSearchQuery()}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Construct\+Search\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00984_abec4a10f304819bc35a419c5cc42348f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00984_abec4a10f304819bc35a419c5cc42348f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00984_a9688cc64679c92e468e4cf6cd8307e26}\label{a00984_a9688cc64679c92e468e4cf6cd8307e26}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!OpenExamRecord@{OpenExamRecord}}
+\index{OpenExamRecord@{OpenExamRecord}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{OpenExamRecord()}{OpenExamRecord()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Open\+Exam\+Record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_ac3b244f1690082925973626add4fb2d0}\label{a00984_ac3b244f1690082925973626add4fb2d0}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!SearchExamRecord@{SearchExamRecord}}
+\index{SearchExamRecord@{SearchExamRecord}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{SearchExamRecord()}{SearchExamRecord()}}
+{\footnotesize\ttfamily void Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Search\+Exam\+Record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00984_ac3b244f1690082925973626add4fb2d0_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00984_a1b54a12a3f4012eae45c3b4044039700}\label{a00984_a1b54a12a3f4012eae45c3b4044039700}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!accountNumberCol@{accountNumberCol}}
+\index{accountNumberCol@{accountNumberCol}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{accountNumberCol}{accountNumberCol}}
+{\footnotesize\ttfamily const string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+account\+Number\+Col = \char`\"{}Acc\+Number\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_aff8a3f5e96e585528ecacbf6419d435a}\label{a00984_aff8a3f5e96e585528ecacbf6419d435a}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!accountNumberSearch@{accountNumberSearch}}
+\index{accountNumberSearch@{accountNumberSearch}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{accountNumberSearch}{accountNumberSearch}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+account\+Number\+Search\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_aa6a5937596e22781ed61a053a92f2b3d}\label{a00984_aa6a5937596e22781ed61a053a92f2b3d}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!examDateCol@{examDateCol}}
+\index{examDateCol@{examDateCol}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{examDateCol}{examDateCol}}
+{\footnotesize\ttfamily const string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+exam\+Date\+Col = \char`\"{}Date\+Of\+Exam\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_a90ceab2ff67f9f48ea3665bf56c34147}\label{a00984_a90ceab2ff67f9f48ea3665bf56c34147}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!examDateEnd@{examDateEnd}}
+\index{examDateEnd@{examDateEnd}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{examDateEnd}{examDateEnd}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+exam\+Date\+End\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_a147c0ab793019c12cf120d4ff661bc4a}\label{a00984_a147c0ab793019c12cf120d4ff661bc4a}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!examDateStart@{examDateStart}}
+\index{examDateStart@{examDateStart}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{examDateStart}{examDateStart}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+exam\+Date\+Start\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_a03204381ba10f8a28cea0670481e1634}\label{a00984_a03204381ba10f8a28cea0670481e1634}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!firstNameCol@{firstNameCol}}
+\index{firstNameCol@{firstNameCol}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{firstNameCol}{firstNameCol}}
+{\footnotesize\ttfamily const string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+first\+Name\+Col = \char`\"{}First\+Name\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_ad23eba38ce398365e4bfad2d13512350}\label{a00984_ad23eba38ce398365e4bfad2d13512350}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!firstNameSearch@{firstNameSearch}}
+\index{firstNameSearch@{firstNameSearch}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{firstNameSearch}{firstNameSearch}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+first\+Name\+Search\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_ad8c7ae8e4eeb7155f499452a9d08af0e}\label{a00984_ad8c7ae8e4eeb7155f499452a9d08af0e}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!lastNameCol@{lastNameCol}}
+\index{lastNameCol@{lastNameCol}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{lastNameCol}{lastNameCol}}
+{\footnotesize\ttfamily const string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+last\+Name\+Col = \char`\"{}Last\+Name\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_a5b15cf6976cb8d835b8229058a847408}\label{a00984_a5b15cf6976cb8d835b8229058a847408}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!lastNameSearch@{lastNameSearch}}
+\index{lastNameSearch@{lastNameSearch}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{lastNameSearch}{lastNameSearch}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+last\+Name\+Search\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_ab2ccf5c42943961c741426a42eadaab8}\label{a00984_ab2ccf5c42943961c741426a42eadaab8}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!openCommand@{openCommand}}
+\index{openCommand@{openCommand}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{openCommand}{openCommand}}
+{\footnotesize\ttfamily I\+Command Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+open\+Command\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_aa0f452689f97a4eb14559cecc7ad6531}\label{a00984_aa0f452689f97a4eb14559cecc7ad6531}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!patientRecords@{patientRecords}}
+\index{patientRecords@{patientRecords}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{patientRecords}{patientRecords}}
+{\footnotesize\ttfamily Observable\+Collection$<$\mbox{\hyperlink{a00980}{Patient}}$>$ Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+patient\+Records\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_aa6d75bd119347b005f95c1e16f2cecc5}\label{a00984_aa6d75bd119347b005f95c1e16f2cecc5}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!patientTable@{patientTable}}
+\index{patientTable@{patientTable}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{patientTable}{patientTable}}
+{\footnotesize\ttfamily const string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+patient\+Table = \char`\"{}Patient\+Info\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00984_a851fa9d765437875cce1852bdd979238}\label{a00984_a851fa9d765437875cce1852bdd979238}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!searchCommand@{searchCommand}}
+\index{searchCommand@{searchCommand}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{searchCommand}{searchCommand}}
+{\footnotesize\ttfamily I\+Command Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+search\+Command\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{a00984_aa913c7a25364edcc0509b648b55c0b1b}\label{a00984_aa913c7a25364edcc0509b648b55c0b1b}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!AccountNumberSearch@{AccountNumberSearch}}
+\index{AccountNumberSearch@{AccountNumberSearch}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{AccountNumberSearch}{AccountNumberSearch}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Account\+Number\+Search\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00984_a3fc94cd42cb6b25feb281e60b4f7bf12}\label{a00984_a3fc94cd42cb6b25feb281e60b4f7bf12}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!AccountNumberSelected@{AccountNumberSelected}}
+\index{AccountNumberSelected@{AccountNumberSelected}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{AccountNumberSelected}{AccountNumberSelected}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Account\+Number\+Selected\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00984_ad3d5f1be8ae746e79e5846e8fa2b359a}\label{a00984_ad3d5f1be8ae746e79e5846e8fa2b359a}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!CloseAction@{CloseAction}}
+\index{CloseAction@{CloseAction}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{CloseAction}{CloseAction}}
+{\footnotesize\ttfamily Action Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Close\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00984_aa84496a633f97db5f47b554853161c83}\label{a00984_aa84496a633f97db5f47b554853161c83}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!ExamDateEnd@{ExamDateEnd}}
+\index{ExamDateEnd@{ExamDateEnd}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{ExamDateEnd}{ExamDateEnd}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Exam\+Date\+End\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00984_ac247be0994c30b91a5a0c1a85fc4d700}\label{a00984_ac247be0994c30b91a5a0c1a85fc4d700}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!ExamDateSelected@{ExamDateSelected}}
+\index{ExamDateSelected@{ExamDateSelected}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{ExamDateSelected}{ExamDateSelected}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Exam\+Date\+Selected\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00984_a60c16912fb43f0f95f27e6fb3bc7fb7e}\label{a00984_a60c16912fb43f0f95f27e6fb3bc7fb7e}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!ExamDateStart@{ExamDateStart}}
+\index{ExamDateStart@{ExamDateStart}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{ExamDateStart}{ExamDateStart}}
+{\footnotesize\ttfamily Date\+Time Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Exam\+Date\+Start\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00984_a7ba4cb26e372f8fcf659325aa14ca85a}\label{a00984_a7ba4cb26e372f8fcf659325aa14ca85a}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!FirstNameSearch@{FirstNameSearch}}
+\index{FirstNameSearch@{FirstNameSearch}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{FirstNameSearch}{FirstNameSearch}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+First\+Name\+Search\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00984_afee7df79ff5e9504c27460449cd1fcf3}\label{a00984_afee7df79ff5e9504c27460449cd1fcf3}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!IsRecordSelected@{IsRecordSelected}}
+\index{IsRecordSelected@{IsRecordSelected}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{IsRecordSelected}{IsRecordSelected}}
+{\footnotesize\ttfamily bool Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Is\+Record\+Selected\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00984_a3618d12735dd67f24aaed6da366e2d97}\label{a00984_a3618d12735dd67f24aaed6da366e2d97}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!LastNameSearch@{LastNameSearch}}
+\index{LastNameSearch@{LastNameSearch}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{LastNameSearch}{LastNameSearch}}
+{\footnotesize\ttfamily string Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Last\+Name\+Search\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00984_a3ea8dd82de2a91622492efa24a307b5f}\label{a00984_a3ea8dd82de2a91622492efa24a307b5f}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!OpenCommand@{OpenCommand}}
+\index{OpenCommand@{OpenCommand}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{OpenCommand}{OpenCommand}}
+{\footnotesize\ttfamily I\+Command?? Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Open\+Command\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00984_ad02ec5daaf34b4e1e0041538303daff2}\label{a00984_ad02ec5daaf34b4e1e0041538303daff2}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!PatientRecords@{PatientRecords}}
+\index{PatientRecords@{PatientRecords}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{PatientRecords}{PatientRecords}}
+{\footnotesize\ttfamily Observable\+Collection$<$\mbox{\hyperlink{a00980}{Patient}}$>$ Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Patient\+Records\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{a00984_ad93cd7d954df9816e7817e9d682d8c23}\label{a00984_ad93cd7d954df9816e7817e9d682d8c23}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!SearchCommand@{SearchCommand}}
+\index{SearchCommand@{SearchCommand}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{SearchCommand}{SearchCommand}}
+{\footnotesize\ttfamily I\+Command?? Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Search\+Command\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{a00984_a3c8f3d0a7c89c0384168d00a93fb4808}\label{a00984_a3c8f3d0a7c89c0384168d00a93fb4808}} 
+\index{Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}!SearchWindowAction@{SearchWindowAction}}
+\index{SearchWindowAction@{SearchWindowAction}!Audiometry.ViewModel.SearchVM.SearchWindowVM@{Audiometry.ViewModel.SearchVM.SearchWindowVM}}
+\doxysubsubsection{\texorpdfstring{SearchWindowAction}{SearchWindowAction}}
+{\footnotesize\ttfamily \mbox{\hyperlink{a00984_aadc288745a631dee737a3fa0e9e7e64d}{Action\+Type}} Audiometry.\+View\+Model.\+Search\+V\+M.\+Search\+Window\+V\+M.\+Search\+Window\+Action\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+View\+Model/\+Search\+V\+M/\mbox{\hyperlink{a00380}{Search\+Window\+V\+M.\+cs}}\end{DoxyCompactItemize}

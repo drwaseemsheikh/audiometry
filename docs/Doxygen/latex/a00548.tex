@@ -1,0 +1,268 @@
+\hypertarget{a00548}{}\doxysection{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model Class Reference}
+\label{a00548}\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+
+
+Inheritance diagram for Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00547}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00546}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00548_ab614195a3a60a4d8faad1501d16db2d6}{Air\+Cond\+Umsk\+Data\+Model}} (\mbox{\hyperlink{a00996}{Sub\+Tab\+VM}} vm)
+\item 
+override bool \mbox{\hyperlink{a00548_a9e51e628713b319191ded9da3533b31e}{Add\+Record\+To\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override bool \mbox{\hyperlink{a00548_a0017dd6288ca44ed5d835d02953b7527}{Update\+Record\+In\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override void \mbox{\hyperlink{a00548_a492aea2d99cc1f6445412f0e4240196c}{Open\+Record\+From\+Database}} (string acc\+Number, string exam\+Date, out bool test\+Conducted)
+\item 
+override bool \mbox{\hyperlink{a00548_ad0468d3d91a72f83829ad0e3cfcb88d6}{Delete\+Record\+From\+Database}} (string acc\+Number, string exam\+Date)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{a00548_a961358fd6c654f7a0912828e7522e4db}{Get\+View\+Model\+Property\+Values}} (string acc\+Number, string exam\+Date, bool test\+Conducted)
+\item 
+string \mbox{\hyperlink{a00548_a08e6f6e59b6efca6495effb1ee17763d}{Construct\+Insert\+Query}} ()
+\item 
+string \mbox{\hyperlink{a00548_ae8d8037bb2646c3e1250de8f8395cc02}{Construct\+Update\+Query}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{a00548_a8689a333cbdc22efb214b782f790d2b8}{Execute\+Query}} (string query, out string msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_a16463be1896dba34fb57fef6f03b55ed}{acc\+Number\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_accb6a0fcccc6bff9293f1c40c76dc7a9}{date\+Of\+Exam\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_a7dd6cfbb5ce2bed71303db6935b74d21}{is\+Test\+Conducted\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_a943498be0e8db2e5912a805c4cb7efb4}{avg\+Sp\+Per\+Rt\+Ear\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_a87a00c25d8a67fef329ebd633cc605f7}{impair\+Rt\+Ear\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_adb3d08e8991586ed27e5a42bb8770edc}{avg\+Sp\+Per\+Lt\+Ear\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_addd410671ec31bd5f686e1271633cdb0}{impair\+Lt\+Ear\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00548_a694664b77b729c91c63de5d89804ee79}{disability\+Col}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const string \mbox{\hyperlink{a00548_a1c7ef7d89a5b9f7c79c21b2b75fe00e8}{disability\+Table}} = \char`\"{}Hearing\+Disability\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00548_ab614195a3a60a4d8faad1501d16db2d6}\label{a00548_ab614195a3a60a4d8faad1501d16db2d6}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!AirCondUmskDataModel@{AirCondUmskDataModel}}
+\index{AirCondUmskDataModel@{AirCondUmskDataModel}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{AirCondUmskDataModel()}{AirCondUmskDataModel()}}
+{\footnotesize\ttfamily Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Air\+Cond\+Umsk\+Data\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{a00996}{Sub\+Tab\+VM}}}]{vm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00548_a9e51e628713b319191ded9da3533b31e}\label{a00548_a9e51e628713b319191ded9da3533b31e}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!AddRecordToDatabase@{AddRecordToDatabase}}
+\index{AddRecordToDatabase@{AddRecordToDatabase}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{AddRecordToDatabase()}{AddRecordToDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Add\+Record\+To\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a906a54f7a56f3e6806da1120413a3245}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00548_a9e51e628713b319191ded9da3533b31e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00548_a08e6f6e59b6efca6495effb1ee17763d}\label{a00548_a08e6f6e59b6efca6495effb1ee17763d}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!ConstructInsertQuery@{ConstructInsertQuery}}
+\index{ConstructInsertQuery@{ConstructInsertQuery}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{ConstructInsertQuery()}{ConstructInsertQuery()}}
+{\footnotesize\ttfamily string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Construct\+Insert\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00548_a08e6f6e59b6efca6495effb1ee17763d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00548_ae8d8037bb2646c3e1250de8f8395cc02}\label{a00548_ae8d8037bb2646c3e1250de8f8395cc02}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!ConstructUpdateQuery@{ConstructUpdateQuery}}
+\index{ConstructUpdateQuery@{ConstructUpdateQuery}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{ConstructUpdateQuery()}{ConstructUpdateQuery()}}
+{\footnotesize\ttfamily string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Construct\+Update\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00548_ae8d8037bb2646c3e1250de8f8395cc02_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00548_ad0468d3d91a72f83829ad0e3cfcb88d6}\label{a00548_ad0468d3d91a72f83829ad0e3cfcb88d6}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!DeleteRecordFromDatabase@{DeleteRecordFromDatabase}}
+\index{DeleteRecordFromDatabase@{DeleteRecordFromDatabase}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{DeleteRecordFromDatabase()}{DeleteRecordFromDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Delete\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_ae989e5a371ecdff74637cc369027e9a9}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+\mbox{\Hypertarget{a00548_a8689a333cbdc22efb214b782f790d2b8}\label{a00548_a8689a333cbdc22efb214b782f790d2b8}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!ExecuteQuery@{ExecuteQuery}}
+\index{ExecuteQuery@{ExecuteQuery}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{ExecuteQuery()}{ExecuteQuery()}}
+{\footnotesize\ttfamily static bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Execute\+Query (\begin{DoxyParamCaption}\item[{string}]{query,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00548_a8689a333cbdc22efb214b782f790d2b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00548_a961358fd6c654f7a0912828e7522e4db}\label{a00548_a961358fd6c654f7a0912828e7522e4db}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!GetViewModelPropertyValues@{GetViewModelPropertyValues}}
+\index{GetViewModelPropertyValues@{GetViewModelPropertyValues}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{GetViewModelPropertyValues()}{GetViewModelPropertyValues()}}
+{\footnotesize\ttfamily void Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Get\+View\+Model\+Property\+Values (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00548_a961358fd6c654f7a0912828e7522e4db_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00548_a492aea2d99cc1f6445412f0e4240196c}\label{a00548_a492aea2d99cc1f6445412f0e4240196c}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!OpenRecordFromDatabase@{OpenRecordFromDatabase}}
+\index{OpenRecordFromDatabase@{OpenRecordFromDatabase}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{OpenRecordFromDatabase()}{OpenRecordFromDatabase()}}
+{\footnotesize\ttfamily override void Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Open\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{out bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a78486e0ac35f4d032bd8aa42eb70481e}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00548_a492aea2d99cc1f6445412f0e4240196c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00548_a0017dd6288ca44ed5d835d02953b7527}\label{a00548_a0017dd6288ca44ed5d835d02953b7527}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!UpdateRecordInDatabase@{UpdateRecordInDatabase}}
+\index{UpdateRecordInDatabase@{UpdateRecordInDatabase}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{UpdateRecordInDatabase()}{UpdateRecordInDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+Update\+Record\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a85d204be50d22afb5c316945b85eed46}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00548_a0017dd6288ca44ed5d835d02953b7527_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00548_a16463be1896dba34fb57fef6f03b55ed}\label{a00548_a16463be1896dba34fb57fef6f03b55ed}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!accNumberCol@{accNumberCol}}
+\index{accNumberCol@{accNumberCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{accNumberCol}{accNumberCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+acc\+Number\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_adb3d08e8991586ed27e5a42bb8770edc}\label{a00548_adb3d08e8991586ed27e5a42bb8770edc}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!avgSpPerLtEarCol@{avgSpPerLtEarCol}}
+\index{avgSpPerLtEarCol@{avgSpPerLtEarCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{avgSpPerLtEarCol}{avgSpPerLtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+avg\+Sp\+Per\+Lt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_a943498be0e8db2e5912a805c4cb7efb4}\label{a00548_a943498be0e8db2e5912a805c4cb7efb4}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!avgSpPerRtEarCol@{avgSpPerRtEarCol}}
+\index{avgSpPerRtEarCol@{avgSpPerRtEarCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{avgSpPerRtEarCol}{avgSpPerRtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+avg\+Sp\+Per\+Rt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_accb6a0fcccc6bff9293f1c40c76dc7a9}\label{a00548_accb6a0fcccc6bff9293f1c40c76dc7a9}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!dateOfExamCol@{dateOfExamCol}}
+\index{dateOfExamCol@{dateOfExamCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{dateOfExamCol}{dateOfExamCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+date\+Of\+Exam\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_a694664b77b729c91c63de5d89804ee79}\label{a00548_a694664b77b729c91c63de5d89804ee79}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!disabilityCol@{disabilityCol}}
+\index{disabilityCol@{disabilityCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{disabilityCol}{disabilityCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+disability\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_a1c7ef7d89a5b9f7c79c21b2b75fe00e8}\label{a00548_a1c7ef7d89a5b9f7c79c21b2b75fe00e8}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!disabilityTable@{disabilityTable}}
+\index{disabilityTable@{disabilityTable}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{disabilityTable}{disabilityTable}}
+{\footnotesize\ttfamily const string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+disability\+Table = \char`\"{}Hearing\+Disability\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_addd410671ec31bd5f686e1271633cdb0}\label{a00548_addd410671ec31bd5f686e1271633cdb0}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!impairLtEarCol@{impairLtEarCol}}
+\index{impairLtEarCol@{impairLtEarCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{impairLtEarCol}{impairLtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+impair\+Lt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_a87a00c25d8a67fef329ebd633cc605f7}\label{a00548_a87a00c25d8a67fef329ebd633cc605f7}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!impairRtEarCol@{impairRtEarCol}}
+\index{impairRtEarCol@{impairRtEarCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{impairRtEarCol}{impairRtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+impair\+Rt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00548_a7dd6cfbb5ce2bed71303db6935b74d21}\label{a00548_a7dd6cfbb5ce2bed71303db6935b74d21}} 
+\index{Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}!isTestConductedCol@{isTestConductedCol}}
+\index{isTestConductedCol@{isTestConductedCol}!Audiometry.Model.SubTabModel.AirCondUmskDataModel@{Audiometry.Model.SubTabModel.AirCondUmskDataModel}}
+\doxysubsubsection{\texorpdfstring{isTestConductedCol}{isTestConductedCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Air\+Cond\+Umsk\+Data\+Model.\+is\+Test\+Conducted\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+Model/\+Sub\+Tab\+Model/\mbox{\hyperlink{a00062}{Air\+Cond\+Umsk\+Data\+Model.\+cs}}\end{DoxyCompactItemize}

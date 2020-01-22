@@ -1,0 +1,244 @@
+\hypertarget{a00584}{}\doxysection{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model Class Reference}
+\label{a00584}\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+
+
+Inheritance diagram for Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=241pt]{a00583}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{a00582}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{a00584_a46d00f57412d4953793f17d81b31f43a}{Tone\+Decay\+Model}} (\mbox{\hyperlink{a00996}{Sub\+Tab\+VM}} vm)
+\item 
+override bool \mbox{\hyperlink{a00584_ab782039756c1fabdc021b320dbfe82d2}{Add\+Record\+To\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override bool \mbox{\hyperlink{a00584_ac13251c6f2bff2d2c31962f25d42d0dc}{Update\+Record\+In\+Database}} (string acc\+Number, string exam\+Date, bool test\+Conducted, out string msg)
+\item 
+override void \mbox{\hyperlink{a00584_a46be340c1ddcf029047040412f4f4f73}{Open\+Record\+From\+Database}} (string acc\+Number, string exam\+Date, out bool test\+Conducted)
+\item 
+override bool \mbox{\hyperlink{a00584_a44201c21ebfbe74dfef44d212ff2465d}{Delete\+Record\+From\+Database}} (string acc\+Number, string exam\+Date)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{a00584_a0174cc1bd21f0ea13bdf22b4624c596a}{Get\+View\+Model\+Property\+Values}} (string acc\+Number, string exam\+Date, bool test\+Conducted)
+\item 
+string \mbox{\hyperlink{a00584_a3490501dab19774641fa2d81147ffd17}{Construct\+Insert\+Query}} ()
+\item 
+string \mbox{\hyperlink{a00584_a2d7e05e04b7ead5a522c9068c107e958}{Construct\+Update\+Query}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{a00584_ae44833d893f836b1bf232e275db92a43}{Execute\+Query}} (string query, out string msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00584_a7b3da9cd0b8ed98cfc10b2cff5d944b0}{acc\+Number\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00584_afbec20efc53e7c0f95c8f79b09163295}{date\+Of\+Exam\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00584_a6b3bb61c505afd54db32598a62eae76d}{is\+Test\+Conducted\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00584_a7b555618f943689098b6ed6c15b89d1f}{td\+Rt\+Ear\+Col}}
+\item 
+readonly \mbox{\hyperlink{a00524}{Db\+Column}} \mbox{\hyperlink{a00584_ac38388533ef63bc3f3ab956919a0b9b9}{td\+Lt\+Ear\+Col}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const string \mbox{\hyperlink{a00584_a0576d0ff2a63b5a1a066726a77aaac6d}{db\+Table}} = \char`\"{}Tone\+Decay\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{a00584_a46d00f57412d4953793f17d81b31f43a}\label{a00584_a46d00f57412d4953793f17d81b31f43a}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!ToneDecayModel@{ToneDecayModel}}
+\index{ToneDecayModel@{ToneDecayModel}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{ToneDecayModel()}{ToneDecayModel()}}
+{\footnotesize\ttfamily Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Tone\+Decay\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{a00996}{Sub\+Tab\+VM}}}]{vm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00584_ab782039756c1fabdc021b320dbfe82d2}\label{a00584_ab782039756c1fabdc021b320dbfe82d2}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!AddRecordToDatabase@{AddRecordToDatabase}}
+\index{AddRecordToDatabase@{AddRecordToDatabase}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{AddRecordToDatabase()}{AddRecordToDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Add\+Record\+To\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a906a54f7a56f3e6806da1120413a3245}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00584_ab782039756c1fabdc021b320dbfe82d2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00584_a3490501dab19774641fa2d81147ffd17}\label{a00584_a3490501dab19774641fa2d81147ffd17}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!ConstructInsertQuery@{ConstructInsertQuery}}
+\index{ConstructInsertQuery@{ConstructInsertQuery}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{ConstructInsertQuery()}{ConstructInsertQuery()}}
+{\footnotesize\ttfamily string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Construct\+Insert\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00584_a3490501dab19774641fa2d81147ffd17_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00584_a2d7e05e04b7ead5a522c9068c107e958}\label{a00584_a2d7e05e04b7ead5a522c9068c107e958}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!ConstructUpdateQuery@{ConstructUpdateQuery}}
+\index{ConstructUpdateQuery@{ConstructUpdateQuery}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{ConstructUpdateQuery()}{ConstructUpdateQuery()}}
+{\footnotesize\ttfamily string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Construct\+Update\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00584_a2d7e05e04b7ead5a522c9068c107e958_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00584_a44201c21ebfbe74dfef44d212ff2465d}\label{a00584_a44201c21ebfbe74dfef44d212ff2465d}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!DeleteRecordFromDatabase@{DeleteRecordFromDatabase}}
+\index{DeleteRecordFromDatabase@{DeleteRecordFromDatabase}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{DeleteRecordFromDatabase()}{DeleteRecordFromDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Delete\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_ae989e5a371ecdff74637cc369027e9a9}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+\mbox{\Hypertarget{a00584_ae44833d893f836b1bf232e275db92a43}\label{a00584_ae44833d893f836b1bf232e275db92a43}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!ExecuteQuery@{ExecuteQuery}}
+\index{ExecuteQuery@{ExecuteQuery}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{ExecuteQuery()}{ExecuteQuery()}}
+{\footnotesize\ttfamily static bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Execute\+Query (\begin{DoxyParamCaption}\item[{string}]{query,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00584_ae44833d893f836b1bf232e275db92a43_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00584_a0174cc1bd21f0ea13bdf22b4624c596a}\label{a00584_a0174cc1bd21f0ea13bdf22b4624c596a}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!GetViewModelPropertyValues@{GetViewModelPropertyValues}}
+\index{GetViewModelPropertyValues@{GetViewModelPropertyValues}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{GetViewModelPropertyValues()}{GetViewModelPropertyValues()}}
+{\footnotesize\ttfamily void Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Get\+View\+Model\+Property\+Values (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00584_a0174cc1bd21f0ea13bdf22b4624c596a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00584_a46be340c1ddcf029047040412f4f4f73}\label{a00584_a46be340c1ddcf029047040412f4f4f73}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!OpenRecordFromDatabase@{OpenRecordFromDatabase}}
+\index{OpenRecordFromDatabase@{OpenRecordFromDatabase}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{OpenRecordFromDatabase()}{OpenRecordFromDatabase()}}
+{\footnotesize\ttfamily override void Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Open\+Record\+From\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{out bool}]{test\+Conducted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a78486e0ac35f4d032bd8aa42eb70481e}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00584_a46be340c1ddcf029047040412f4f4f73_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00584_ac13251c6f2bff2d2c31962f25d42d0dc}\label{a00584_ac13251c6f2bff2d2c31962f25d42d0dc}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!UpdateRecordInDatabase@{UpdateRecordInDatabase}}
+\index{UpdateRecordInDatabase@{UpdateRecordInDatabase}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{UpdateRecordInDatabase()}{UpdateRecordInDatabase()}}
+{\footnotesize\ttfamily override bool Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+Update\+Record\+In\+Database (\begin{DoxyParamCaption}\item[{string}]{acc\+Number,  }\item[{string}]{exam\+Date,  }\item[{bool}]{test\+Conducted,  }\item[{out string}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{a00580_a85d204be50d22afb5c316945b85eed46}{Audiometry.\+Model.\+Sub\+Tab\+Model.\+Sub\+Tab\+Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{a00584_ac13251c6f2bff2d2c31962f25d42d0dc_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00584_a7b3da9cd0b8ed98cfc10b2cff5d944b0}\label{a00584_a7b3da9cd0b8ed98cfc10b2cff5d944b0}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!accNumberCol@{accNumberCol}}
+\index{accNumberCol@{accNumberCol}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{accNumberCol}{accNumberCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+acc\+Number\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00584_afbec20efc53e7c0f95c8f79b09163295}\label{a00584_afbec20efc53e7c0f95c8f79b09163295}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!dateOfExamCol@{dateOfExamCol}}
+\index{dateOfExamCol@{dateOfExamCol}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{dateOfExamCol}{dateOfExamCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+date\+Of\+Exam\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00584_a0576d0ff2a63b5a1a066726a77aaac6d}\label{a00584_a0576d0ff2a63b5a1a066726a77aaac6d}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!dbTable@{dbTable}}
+\index{dbTable@{dbTable}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{dbTable}{dbTable}}
+{\footnotesize\ttfamily const string Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+db\+Table = \char`\"{}Tone\+Decay\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00584_a6b3bb61c505afd54db32598a62eae76d}\label{a00584_a6b3bb61c505afd54db32598a62eae76d}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!isTestConductedCol@{isTestConductedCol}}
+\index{isTestConductedCol@{isTestConductedCol}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{isTestConductedCol}{isTestConductedCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+is\+Test\+Conducted\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00584_ac38388533ef63bc3f3ab956919a0b9b9}\label{a00584_ac38388533ef63bc3f3ab956919a0b9b9}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!tdLtEarCol@{tdLtEarCol}}
+\index{tdLtEarCol@{tdLtEarCol}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{tdLtEarCol}{tdLtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+td\+Lt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{a00584_a7b555618f943689098b6ed6c15b89d1f}\label{a00584_a7b555618f943689098b6ed6c15b89d1f}} 
+\index{Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}!tdRtEarCol@{tdRtEarCol}}
+\index{tdRtEarCol@{tdRtEarCol}!Audiometry.Model.SubTabModel.ToneDecayModel@{Audiometry.Model.SubTabModel.ToneDecayModel}}
+\doxysubsubsection{\texorpdfstring{tdRtEarCol}{tdRtEarCol}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{a00524}{Db\+Column}} Audiometry.\+Model.\+Sub\+Tab\+Model.\+Tone\+Decay\+Model.\+td\+Rt\+Ear\+Col\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Audiometry/\+Model/\+Sub\+Tab\+Model/\mbox{\hyperlink{a00089}{Tone\+Decay\+Model.\+cs}}\end{DoxyCompactItemize}
