@@ -13,9 +13,9 @@ authors:
   - name: Nadeem Sheikh
     affiliation: 2
 affiliations:
- - name: Associate Professor, CSET Department, Oregon Institute of Technology, USA
+ - name: Associate Professor, Electrical and Computer Engineering, Utah Valley University, USA
    index: 1
- - name: Assistant Professor of ENT, CMH, Abbottabad, Pakistan
+ - name: Assistant Professor of ENT, CMH, Quetta, Pakistan
    index: 2
 date: 9 Nov 2019
 bibliography: paper.bib
