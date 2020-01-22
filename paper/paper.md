@@ -54,7 +54,7 @@ The current functionality of the application can be extended and enhanced in var
 ![Patient interface.](patient1.png)
 
 # Documentation
-The Doxygen generated API documentation for ``Audiometry`` can be found under the Docs folder. The full-length paper on ``Audiometry`` which explains its design, architecture, and implementation in detail is located in the paper folder.
+The Doxygen generated API documentation for ``Audiometry`` can be found under the docs folder. The full-length paper on ``Audiometry`` which explains its design, architecture, and implementation in detail is located in the paper folder.
 
 # Installation
 
