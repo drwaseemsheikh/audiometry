@@ -1,9 +1,0 @@
-<map id="Audiometry.Model.TabModel.PatientModel" name="Audiometry.Model.TabModel.PatientModel">
-<area shape="rect" id="node1" title=" " alt="" coords="176,817,387,1173"/>
-<area shape="rect" id="node2" href="$a00604.html" title=" " alt="" coords="5,465,211,601"/>
-<area shape="rect" id="node3" href="$a00532.html" title=" " alt="" coords="43,288,130,365"/>
-<area shape="rect" id="node4" href="$a01000.html" title=" " alt="" coords="155,259,360,395"/>
-<area shape="rect" id="node5" href="$a01004.html" title=" " alt="" coords="178,132,337,209"/>
-<area shape="rect" id="node6" title=" " alt="" coords="178,5,337,83"/>
-<area shape="rect" id="node7" href="$a00524.html" title=" " alt="" coords="235,457,445,608"/>
-</map>
