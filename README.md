@@ -12,4 +12,4 @@ Audiometry provides a unified and uniform interface for storing, processing, and
 
 # Installation
 
-``Audiometry`` can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer folder of the repository. To test the application, please follow the steps listed in the test.md file under the test folder.
+``Audiometry`` can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer folder of the repository.
