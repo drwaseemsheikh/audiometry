@@ -1,28 +1,37 @@
 ---
 name: Bug Report
-about: If something isn't working as expected.
+about: Report a bug here
+labels: bug
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+Please replace every line in curly brackets { like this } with appropriate answers, and remove this line.
 
-**To Reproduce**
-Steps to reproduce the behavior:
+## Description
 
-1.  Go to '...'
-2.  Click on '....'
-3.  Scroll down to '....'
-4.  See error
+{ Please provide a clear and concise description of the bug. }
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Environment
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+1. OS (where Audiometry runs): { e.g. Mac OS 10, Windows 10, Ubuntu 16.4, etc. }
+2. Audiometry version: { e.g. Audiometry 1.0 }
+3. Other environment details:
 
-**Desktop (please complete the following information):**
+## Reproducible Steps
 
-* OS: [e.g. Windows 10]
+Steps to create the smallest reproducible scenario:
+1. { e.g. Run ... }
+2. { e.g. Click ... }
+3. { e.g. Save ... }
+4. { e.g. See error ... }
 
-**Additional context**
-Add any other context about the problem here.
+## Expected Output
+
+{ Please describe what you expected to happen. }
+
+## Actual Output
+
+{ Please describe what actually happened. }
+ 
+## Additional information
+
+{ Any additional information, including logs or screenshots if you have any. }
