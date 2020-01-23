@@ -13,9 +13,9 @@ authors:
   - name: Nadeem Sheikh
     affiliation: 2
 affiliations:
- - name: Associate Professor, CSET Department, Oregon Institute of Technology, USA
+ - name: Associate Professor, Electrical and Computer Engineering, Utah Valley University, USA
    index: 1
- - name: Assistant Professor of ENT, CMH, Abbottabad, Pakistan
+ - name: Assistant Professor of ENT, CMH, Quetta, Pakistan
    index: 2
 date: 9 Nov 2019
 bibliography: paper.bib
@@ -54,7 +54,7 @@ The current functionality of the application can be extended and enhanced in var
 ![Patient interface.](patient1.png)
 
 # Documentation
-The Doxygen generated API documentation for ``Audiometry`` can be found under the Docs folder. The full-length paper on ``Audiometry`` which explains its design, architecture, and implementation in detail is located in the paper folder.
+The Doxygen generated API documentation for ``Audiometry`` can be found under the docs folder. The full-length paper on ``Audiometry`` which explains its design, architecture, and implementation in detail is located in the paper folder.
 
 # Installation
 

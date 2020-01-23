@@ -9,3 +9,7 @@ The application framework is extensible and can be used to develop new hearing t
 Audiometry is independent of specific hearing test hardware thus making it possible to be used with a wide variety of hearing test hardware.
 
 Audiometry provides a unified and uniform interface for storing, processing, and visualizing data from a wide range of hearing tests that traditionally rely on different hardware and software to process and store data.
+
+# Installation
+
+``Audiometry`` can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer folder of the repository.
