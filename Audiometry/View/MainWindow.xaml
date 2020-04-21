@@ -1108,7 +1108,7 @@
                                                 <Label Grid.Row="0" Grid.Column="0" Content="Right Ear Score" />
                                                 <TextBox Grid.Row="0" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="SisiRtEar" UpdateSourceTrigger="PropertyChanged">
+                                                        <Binding Path="SisiRtEar" UpdateSourceTrigger="LostFocus">
                                                             <Binding.ValidationRules>
                                                                 <valid:PercentageValidation />
                                                             </Binding.ValidationRules>
@@ -1122,7 +1122,7 @@
                                                 <Label Grid.Row="1" Grid.Column="0" Content="Left Ear Score" />
                                                 <TextBox Grid.Row="1" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="SisiLtEar" UpdateSourceTrigger="PropertyChanged">
+                                                        <Binding Path="SisiLtEar" UpdateSourceTrigger="LostFocus">
                                                             <Binding.ValidationRules>
                                                                 <valid:PercentageValidation />
                                                             </Binding.ValidationRules>
@@ -1150,7 +1150,7 @@
                                                 <Label Grid.Row="0" Grid.Column="0" Content="Right Ear" />
                                                 <TextBox Grid.Row="0" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="TdRtEar" UpdateSourceTrigger="PropertyChanged">
+                                                        <Binding Path="TdRtEar" UpdateSourceTrigger="LostFocus">
                                                             <Binding.ValidationRules>
                                                                 <valid:IntensityValidation />
                                                             </Binding.ValidationRules>
@@ -1164,7 +1164,7 @@
                                                 <Label Grid.Row="1" Grid.Column="0" Content="Left Ear" />
                                                 <TextBox Grid.Row="1" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="TdLtEar" UpdateSourceTrigger="PropertyChanged">
+                                                        <Binding Path="TdLtEar" UpdateSourceTrigger="LostFocus">
                                                             <Binding.ValidationRules>
                                                                 <valid:IntensityValidation />
                                                             </Binding.ValidationRules>
