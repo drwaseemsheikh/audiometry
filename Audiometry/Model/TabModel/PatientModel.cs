@@ -215,7 +215,7 @@ namespace Audiometry.Model.TabModel
 
             foreach (string sym in symArr)
             {
-                Symptom found = symList.First(x => x.Description.Equals(sym));
+                Symptom found = symList.FirstOrDefault(x => x.Description.Equals(sym));
 
                 if (found != null)
                 {
@@ -232,7 +232,7 @@ namespace Audiometry.Model.TabModel
 
             foreach (string diag in diagArr)
             {
-                Diagnosis found = diagList.First(x => x.Description.Equals(diag));
+                Diagnosis found = diagList.FirstOrDefault(x => x.Description.Equals(diag));
 
                 if (found != null)
                 {

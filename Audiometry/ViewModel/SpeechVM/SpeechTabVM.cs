@@ -616,7 +616,7 @@ namespace Audiometry.ViewModel.SpeechVM
                 series.MarkerFill = OxyColors.Green;
                 series.Color = OxyColors.Black;
                 series.LineStyle = LineStyle.Solid;
-                series.Smooth = true;
+
                 bool srtFound = false;
 
                 foreach (var scoreItem in speechScores)
@@ -645,6 +645,11 @@ namespace Audiometry.ViewModel.SpeechVM
 
                         series.Points.Add(new DataPoint(intensity.Value, score.Value));
                     }
+                }
+
+                if (series.Points.Count > 1)
+                {
+                    series.Smooth = true;
                 }
 
                 SpeechPlotModel.Series.Add(series);

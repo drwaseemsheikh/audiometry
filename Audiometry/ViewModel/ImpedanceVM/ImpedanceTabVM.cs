@@ -711,7 +711,6 @@ namespace Audiometry.ViewModel.ImpedanceVM
             rtEarSeries.MarkerFill = OxyColors.Red;
             rtEarSeries.Color = OxyColors.Red;
             rtEarSeries.LineStyle = LineStyle.Solid;
-            rtEarSeries.Smooth = true;
             rtEarSeries.Title = "Right Ear Tympanogram";
 
             LineSeries ltEarSeries = new LineSeries();
@@ -719,7 +718,6 @@ namespace Audiometry.ViewModel.ImpedanceVM
             ltEarSeries.MarkerFill = OxyColors.Blue;
             ltEarSeries.Color = OxyColors.Blue;
             ltEarSeries.LineStyle = LineStyle.Solid;
-            ltEarSeries.Smooth = true;
             ltEarSeries.Title = "Left Ear Tympanogram";
 
             foreach (var keyValuePair in complianceDict)
@@ -737,6 +735,16 @@ namespace Audiometry.ViewModel.ImpedanceVM
                 {
                     ltEarSeries.Points.Add(new DataPoint(pressure, ltEarComp.Value));
                 }
+            }
+
+            if (rtEarSeries.Points.Count > 1)
+            {
+                rtEarSeries.Smooth = true;
+            }
+
+            if (ltEarSeries.Points.Count > 1)
+            {
+                ltEarSeries.Smooth = true;
             }
 
             Tympanogram.Series.Add(rtEarSeries);

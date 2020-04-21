@@ -11,7 +11,7 @@
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         xmlns:specialAM="clr-namespace:Audiometry.ViewModel.PureToneVM.SpecialTestsVM"
         xmlns:converter="clr-namespace:Audiometry.Converter"
-        Title="Audiologic Profile" Height="900" Width="1400"
+        Title="Audiologic Profile" Height="700" Width="1200"
         WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Window.Resources>
         <converter:EnumBooleanConverter x:Key="enumBooleanConverter" />
@@ -115,7 +115,7 @@
                     <Label Grid.Row="2" Grid.Column="0" Content="Left Ear" />
                     <TextBox Grid.Row="1" Grid.Column="1" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -130,7 +130,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="2" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -145,7 +145,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="3" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -160,7 +160,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="4" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -175,7 +175,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="5" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -190,7 +190,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="6" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -205,7 +205,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="7" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -220,7 +220,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="8" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -235,7 +235,7 @@
                     </TextBox>
                     <TextBox Grid.Row="1" Grid.Column="9" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -250,7 +250,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="1" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -265,7 +265,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="2" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -280,7 +280,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="3" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -295,7 +295,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="4" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -310,7 +310,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="5" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -325,7 +325,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="6" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -340,7 +340,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="7" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -355,7 +355,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="8" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -370,7 +370,7 @@
                     </TextBox>
                     <TextBox Grid.Row="2" Grid.Column="9" TextAlignment="Center" Style="{StaticResource HLTextBoxStyle}" LostFocus="HLTextBox_LostFocus">
                         <TextBox.Text>
-                            <Binding>
+                            <Binding UpdateSourceTrigger="LostFocus">
                                 <Binding.RelativeSource>
                                     <RelativeSource Mode="TemplatedParent" />
                                 </Binding.RelativeSource>
@@ -474,11 +474,11 @@
                                             <ColumnDefinition Width="Auto" />
                                             <ColumnDefinition Width="*" />
                                         </Grid.ColumnDefinitions>
-                                        <Label Grid.Row="0" Grid.Column="0" Content="First Name:" />
-                                        <Label Grid.Row="1" Grid.Column="0" Content="Middle Name:" />
-                                        <Label Grid.Row="2" Grid.Column="0" Content="Last Name:" />
-                                        <Label Grid.Row="3" Grid.Column="0" Content="Title:" />
-                                        <Label Grid.Row="4" Grid.Column="0" Content="Account Number:" />
+                                        <Label Grid.Row="0" Grid.Column="0" Content="Account Number:" />
+                                        <Label Grid.Row="1" Grid.Column="0" Content="First Name:" />
+                                        <Label Grid.Row="2" Grid.Column="0" Content="Middle Name:" />
+                                        <Label Grid.Row="3" Grid.Column="0" Content="Last Name:" />
+                                        <Label Grid.Row="4" Grid.Column="0" Content="Title:" />
                                         <Label Grid.Row="5" Grid.Column="0" Content="Phone:" />
                                         <Label Grid.Row="6" Grid.Column="0" Content="Dependee's Name:" />
                                         <Label Grid.Row="7" Grid.Column="0" Content="Address:" />
@@ -486,29 +486,28 @@
                                         <Label Grid.Row="9" Grid.Column="0" Content="Sex:" />
                                         <Label Grid.Row="10" Grid.Column="0" Content="Profession:" />
                                         <Label Grid.Row="11" Grid.Column="0" Content="Hospital ID:" />
-                                        <TextBox Grid.Row="0" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=FirstName}" />
-                                        <TextBox Grid.Row="1" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=MiddleName}" />
-                                        <TextBox Grid.Row="2" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=LastName}" />
-                                        <TextBox Grid.Row="3" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=Title}" />
 
-                                        <TextBox Grid.Row="4" Grid.Column="1" Margin="5,5,20,5" Style="{StaticResource PositiveNumberTextBoxStyle}" >
+                                        <TextBox Grid.Row="0" Grid.Column="1" Margin="5,5,20,5" Style="{StaticResource PositiveNumberTextBoxStyle}" >
                                             <TextBox.Text>
-                                                <Binding Path="AccNumber">
+                                                <Binding Path="AccNumber" UpdateSourceTrigger="PropertyChanged">
                                                     <Binding.ValidationRules>
                                                         <valid:PositiveNumberValidation />
                                                     </Binding.ValidationRules>
                                                 </Binding>
                                             </TextBox.Text>
                                         </TextBox>
-
-                                        <TextBox Grid.Row="5" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=Phone}" />
+                                        <TextBox Grid.Row="1" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=FirstName, UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBox Grid.Row="2" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=MiddleName, UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBox Grid.Row="3" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=LastName, UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBox Grid.Row="4" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=Title, UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBox Grid.Row="5" Grid.Column="1" Margin="5,5,20,5" Text="{Binding Path=Phone, UpdateSourceTrigger=PropertyChanged}" />
                                         <DockPanel Grid.Row="6" Grid.Column="1">
                                             <RadioButton Content="s/o" IsChecked="{Binding Path=DependeeRelation, Converter={StaticResource enumBooleanConverter}, ConverterParameter={x:Static pd:RelationType.Son} }" />
                                             <RadioButton Content="d/o" IsChecked= "{Binding Path=DependeeRelation, Converter={StaticResource enumBooleanConverter}, ConverterParameter={x:Static pd:RelationType.Daughter}}" />
                                             <RadioButton Content="w/o" IsChecked="{Binding Path=DependeeRelation, Converter={StaticResource enumBooleanConverter}, ConverterParameter={x:Static pd:RelationType.Wife}}"  />
-                                            <TextBox Text="{Binding Path=DependeeName}" Margin="5,5,20,5" />
+                                            <TextBox Text="{Binding Path=DependeeName, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,20,5" />
                                         </DockPanel>
-                                        <TextBox Grid.Row="7" Grid.Column="1" Margin="5,5,20,5" TextWrapping="Wrap" AcceptsReturn="True" Text="{Binding Path=Address}" />
+                                        <TextBox Grid.Row="7" Grid.Column="1" Margin="5,5,20,5" TextWrapping="Wrap" AcceptsReturn="True" Text="{Binding Path=Address, UpdateSourceTrigger=PropertyChanged}" />
                                         <wpfTool:DateTimePicker Grid.Row="8" Grid.Column="1" DisplayDefaultValueOnEmptyText="True" 
                                             DefaultValue="{x:Static sys:DateTime.Now}" Margin="5,5,20,5"
                                             TimePickerVisibility="Hidden" Format="LongDate"
@@ -517,8 +516,8 @@
                                             <RadioButton Content="Male" Margin="5,5,30,5" IsChecked="{Binding Path=Sex, Converter={StaticResource enumBooleanConverter}, ConverterParameter={x:Static pd:SexType.Male}}" />
                                             <RadioButton Content="Female" Margin="30,5,5,5" IsChecked="{Binding Path=Sex, Converter={StaticResource enumBooleanConverter}, ConverterParameter={x:Static pd:SexType.Female}}" />
                                         </StackPanel>
-                                        <TextBox Grid.Row="10" Grid.Column="1" Text="{Binding Path=Profession}" Margin="5,5,20,5" />
-                                        <TextBox Grid.Row="11" Grid.Column="1" Text="{Binding Path=HospitalID}" Margin="5,5,20,5" />
+                                        <TextBox Grid.Row="10" Grid.Column="1" Text="{Binding Path=Profession, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,20,5" />
+                                        <TextBox Grid.Row="11" Grid.Column="1" Text="{Binding Path=HospitalID, UpdateSourceTrigger=PropertyChanged}" Margin="5,5,20,5" />
                                     </Grid>
                                 </Canvas>
                             </GroupBox>
@@ -556,14 +555,14 @@
                                                  ItemTemplate="{StaticResource SymptomsListBoxItemTemplate}" ItemsSource="{Binding Path=Symptoms}" 
                                                  VerticalContentAlignment="Top" Background="#FFDCEBEE" SelectionMode="Single">
                                         </ListBox>
-                                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SymptomsRemarks}" TextWrapping="Wrap" AcceptsReturn="True" />
+                                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SymptomsRemarks, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" AcceptsReturn="True" />
                                         <ListBox Grid.Row="4" Grid.Column="1" Margin="5" HorizontalAlignment="Stretch" Name="lbDiagnosis" 
                                                  VerticalAlignment="Stretch" Width="Auto" MinWidth="200" MinHeight="20" HorizontalContentAlignment="Left" 
                                                  ItemTemplate="{StaticResource DisordersListBoxItemTemplate}" ItemsSource="{Binding Path=Diagnoses}" 
                                                  VerticalContentAlignment="Top" Background="#FFDCEBEE" SelectionMode="Single">
                                         </ListBox>
                                         <TextBox Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" AcceptsReturn="True" 
-                                                 Text="{Binding DiagnosisRemarks}" />
+                                                 Text="{Binding DiagnosisRemarks, UpdateSourceTrigger=PropertyChanged}" />
                                         <TextBox Grid.Row="6" Grid.Column="1" TextWrapping="Wrap" AcceptsReturn="True" 
                                                  Text="{Binding Path=Prescription, UpdateSourceTrigger=PropertyChanged}" />
                                     </Grid>
@@ -1109,7 +1108,7 @@
                                                 <Label Grid.Row="0" Grid.Column="0" Content="Right Ear Score" />
                                                 <TextBox Grid.Row="0" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="SisiRtEar">
+                                                        <Binding Path="SisiRtEar" UpdateSourceTrigger="PropertyChanged">
                                                             <Binding.ValidationRules>
                                                                 <valid:PercentageValidation />
                                                             </Binding.ValidationRules>
@@ -1123,7 +1122,7 @@
                                                 <Label Grid.Row="1" Grid.Column="0" Content="Left Ear Score" />
                                                 <TextBox Grid.Row="1" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="SisiLtEar">
+                                                        <Binding Path="SisiLtEar" UpdateSourceTrigger="PropertyChanged">
                                                             <Binding.ValidationRules>
                                                                 <valid:PercentageValidation />
                                                             </Binding.ValidationRules>
@@ -1151,7 +1150,7 @@
                                                 <Label Grid.Row="0" Grid.Column="0" Content="Right Ear" />
                                                 <TextBox Grid.Row="0" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="TdRtEar">
+                                                        <Binding Path="TdRtEar" UpdateSourceTrigger="PropertyChanged">
                                                             <Binding.ValidationRules>
                                                                 <valid:IntensityValidation />
                                                             </Binding.ValidationRules>
@@ -1165,7 +1164,7 @@
                                                 <Label Grid.Row="1" Grid.Column="0" Content="Left Ear" />
                                                 <TextBox Grid.Row="1" Grid.Column="1" Width="40">
                                                     <TextBox.Text>
-                                                        <Binding Path="TdLtEar">
+                                                        <Binding Path="TdLtEar" UpdateSourceTrigger="PropertyChanged">
                                                             <Binding.ValidationRules>
                                                                 <valid:IntensityValidation />
                                                             </Binding.ValidationRules>
@@ -1397,7 +1396,7 @@
                                             <Label Grid.Row="0" Grid.Column="0" Content="Intensity (dB)" />
                                             <TextBox Grid.Row="0" Grid.Column="1" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity0dB">
+                                                    <Binding Path="Intensity0dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1409,7 +1408,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="2" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity1dB">
+                                                    <Binding Path="Intensity1dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1421,7 +1420,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="3" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity2dB">
+                                                    <Binding Path="Intensity2dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1433,7 +1432,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="4" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity3dB">
+                                                    <Binding Path="Intensity3dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1445,7 +1444,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="5" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity4dB">
+                                                    <Binding Path="Intensity4dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1457,7 +1456,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="6" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity5dB">
+                                                    <Binding Path="Intensity5dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1469,7 +1468,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="7" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity6dB">
+                                                    <Binding Path="Intensity6dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1481,7 +1480,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="8" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity7dB">
+                                                    <Binding Path="Intensity7dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1493,7 +1492,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="9" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity8dB">
+                                                    <Binding Path="Intensity8dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1505,7 +1504,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="0" Grid.Column="10" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Intensity9dB">
+                                                    <Binding Path="Intensity9dB" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:IntensityValidation />
                                                         </Binding.ValidationRules>
@@ -1518,7 +1517,7 @@
                                             <Label Grid.Row="1" Grid.Column="0" Content="Score (%)" />
                                             <TextBox Grid.Row="1" Grid.Column="1" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score0">
+                                                    <Binding Path="Score0" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1530,7 +1529,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="2" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score1">
+                                                    <Binding Path="Score1" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1542,7 +1541,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="3" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score2">
+                                                    <Binding Path="Score2" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1554,7 +1553,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="4" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score3">
+                                                    <Binding Path="Score3" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1566,7 +1565,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="5" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score4">
+                                                    <Binding Path="Score4" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1578,7 +1577,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="6" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score5">
+                                                    <Binding Path="Score5" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1590,7 +1589,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="7" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score6">
+                                                    <Binding Path="Score6" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1602,7 +1601,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="8" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score7">
+                                                    <Binding Path="Score7" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1614,7 +1613,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="9" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score8">
+                                                    <Binding Path="Score8" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1626,7 +1625,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="1" Grid.Column="10" Style="{StaticResource SpeechTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="Score9">
+                                                    <Binding Path="Score9" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:PercentageValidation />
                                                         </Binding.ValidationRules>
@@ -1789,7 +1788,7 @@
 
                                             <TextBox Grid.Row="2" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarComplianceNeg400daPa">
+                                                    <Binding Path="RtEarComplianceNeg400daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1801,7 +1800,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="2" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarComplianceNeg400daPa">
+                                                    <Binding Path="LtEarComplianceNeg400daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1813,7 +1812,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="3" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarComplianceNeg300daPa">
+                                                    <Binding Path="RtEarComplianceNeg300daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1825,7 +1824,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="3" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarComplianceNeg300daPa">
+                                                    <Binding Path="LtEarComplianceNeg300daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1837,7 +1836,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="4" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarComplianceNeg200daPa">
+                                                    <Binding Path="RtEarComplianceNeg200daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1849,7 +1848,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="4" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarComplianceNeg200daPa">
+                                                    <Binding Path="LtEarComplianceNeg200daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1861,7 +1860,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="5" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarComplianceNeg100daPa">
+                                                    <Binding Path="RtEarComplianceNeg100daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1873,7 +1872,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="5" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarComplianceNeg100daPa">
+                                                    <Binding Path="LtEarComplianceNeg100daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1885,7 +1884,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="6" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarCompliance0daPa">
+                                                    <Binding Path="RtEarCompliance0daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1897,7 +1896,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="6" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarCompliance0daPa">
+                                                    <Binding Path="LtEarCompliance0daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1909,7 +1908,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="7" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarCompliance100daPa">
+                                                    <Binding Path="RtEarCompliance100daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1921,7 +1920,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="7" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarCompliance100daPa">
+                                                    <Binding Path="LtEarCompliance100daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1933,7 +1932,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="8" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarCompliance200daPa">
+                                                    <Binding Path="RtEarCompliance200daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1945,7 +1944,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="8" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarCompliance200daPa">
+                                                    <Binding Path="LtEarCompliance200daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1957,7 +1956,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="9" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarCompliance300daPa">
+                                                    <Binding Path="RtEarCompliance300daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1969,7 +1968,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="9" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarCompliance300daPa">
+                                                    <Binding Path="LtEarCompliance300daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1981,7 +1980,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="10" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarCompliance400daPa">
+                                                    <Binding Path="RtEarCompliance400daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -1993,7 +1992,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="10" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarCompliance400daPa">
+                                                    <Binding Path="LtEarCompliance400daPa" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -2004,7 +2003,7 @@
                                                 </TextBox.Text>
                                             </TextBox>
                                             <TextBox Grid.Row="12" Grid.Column="2" IsReadOnly="True" 
-                                                 Style="{StaticResource ImpedanceTextBoxStyle}" Text="{Binding RtEarPeakPressure}">
+                                                 Style="{StaticResource ImpedanceTextBoxStyle}" Text="{Binding RtEarPeakPressure, UpdateSourceTrigger=LostFocus}">
                                                 <i:Interaction.Triggers>
                                                     <i:EventTrigger EventName="GotFocus">
                                                         <i:InvokeCommandAction Command="{Binding PeakPressureCommand}" />
@@ -2012,7 +2011,7 @@
                                                 </i:Interaction.Triggers>
                                             </TextBox>
                                             <TextBox Grid.Row="12" Grid.Column="3" IsReadOnly="True" 
-                                                 Style="{StaticResource ImpedanceTextBoxStyle}" Text="{Binding LtEarPeakPressure}">
+                                                 Style="{StaticResource ImpedanceTextBoxStyle}" Text="{Binding LtEarPeakPressure, UpdateSourceTrigger=LostFocus}">
                                                 <i:Interaction.Triggers>
                                                     <i:EventTrigger EventName="GotFocus">
                                                         <i:InvokeCommandAction Command="{Binding PeakPressureCommand}" />
@@ -2021,7 +2020,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="14" Grid.Column="2" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="RtEarCanalVolume">
+                                                    <Binding Path="RtEarCanalVolume" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -2033,7 +2032,7 @@
                                             </TextBox>
                                             <TextBox Grid.Row="14" Grid.Column="3" Style="{StaticResource ImpedanceTextBoxStyle}">
                                                 <TextBox.Text>
-                                                    <Binding Path="LtEarCanalVolume">
+                                                    <Binding Path="LtEarCanalVolume" UpdateSourceTrigger="LostFocus">
                                                         <Binding.ValidationRules>
                                                             <valid:ComplianceValidation />
                                                         </Binding.ValidationRules>
@@ -2172,7 +2171,7 @@
                                                     <Separator Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="6" />
                                                     <TextBox Grid.Row="3" Grid.Column="2" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartMin30RtEar">
+                                                            <Binding Path="NysStartMin30RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2184,7 +2183,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="3" Grid.Column="3" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartSec30RtEar">
+                                                            <Binding Path="NysStartSec30RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>
@@ -2196,7 +2195,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="3" Grid.Column="4" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndMin30RtEar">
+                                                            <Binding Path="NysEndMin30RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2208,7 +2207,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="3" Grid.Column="5" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndSec30RtEar">
+                                                            <Binding Path="NysEndSec30RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>
@@ -2220,7 +2219,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="4" Grid.Column="2" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartMin30LtEar">
+                                                            <Binding Path="NysStartMin30LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2232,7 +2231,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="4" Grid.Column="3" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartSec30LtEar">
+                                                            <Binding Path="NysStartSec30LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>
@@ -2244,7 +2243,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="4" Grid.Column="4" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndMin30LtEar">
+                                                            <Binding Path="NysEndMin30LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2256,7 +2255,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="4" Grid.Column="5" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndSec30LtEar">
+                                                            <Binding Path="NysEndSec30LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>
@@ -2268,7 +2267,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="6" Grid.Column="2" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartMin44RtEar">
+                                                            <Binding Path="NysStartMin44RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2280,7 +2279,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="6" Grid.Column="3" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartSec44RtEar">
+                                                            <Binding Path="NysStartSec44RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>
@@ -2292,7 +2291,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="6" Grid.Column="4" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndMin44RtEar">
+                                                            <Binding Path="NysEndMin44RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2304,7 +2303,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="6" Grid.Column="5" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndSec44RtEar">
+                                                            <Binding Path="NysEndSec44RtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>
@@ -2316,7 +2315,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="7" Grid.Column="2" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartMin44LtEar">
+                                                            <Binding Path="NysStartMin44LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2328,7 +2327,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="7" Grid.Column="3" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysStartSec44LtEar">
+                                                            <Binding Path="NysStartSec44LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>
@@ -2340,7 +2339,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="7" Grid.Column="4" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndMin44LtEar">
+                                                            <Binding Path="NysEndMin44LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeMinValidation />
                                                                 </Binding.ValidationRules>
@@ -2352,7 +2351,7 @@
                                                     </TextBox>
                                                     <TextBox Grid.Row="7" Grid.Column="5" Style="{StaticResource CaloricTextBoxStyle}">
                                                         <TextBox.Text>
-                                                            <Binding Path="NysEndSec44LtEar">
+                                                            <Binding Path="NysEndSec44LtEar" UpdateSourceTrigger="LostFocus">
                                                                 <Binding.ValidationRules>
                                                                     <valid:CaloricTimeSecValidation />
                                                                 </Binding.ValidationRules>

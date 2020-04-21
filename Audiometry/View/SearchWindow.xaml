@@ -53,7 +53,7 @@
             <Label Grid.Row="0" Grid.Column="0" Content="Account Number" />
             <TextBox Grid.Row="0" Grid.Column="1" Style="{StaticResource SearchTextBoxStyle}">
                 <TextBox.Text>
-                    <Binding Path="AccountNumberSearch">
+                    <Binding Path="AccountNumberSearch" UpdateSourceTrigger="PropertyChanged">
                         <Binding.ValidationRules>
                             <valid:PositiveNumberValidation />
                         </Binding.ValidationRules>
@@ -61,9 +61,9 @@
                 </TextBox.Text>
             </TextBox>                     
             <Label Grid.Row="1" Grid.Column="0" Content="First Name" />
-            <TextBox Grid.Row="1" Grid.Column="1" Style="{StaticResource SearchTextBoxStyle}" Text="{Binding Path=FirstNameSearch}" />
+            <TextBox Grid.Row="1" Grid.Column="1" Style="{StaticResource SearchTextBoxStyle}" Text="{Binding Path=FirstNameSearch, UpdateSourceTrigger=PropertyChanged}" />
             <Label Grid.Row="1" Grid.Column="2" Content="Last Name" />
-            <TextBox Grid.Row="1" Grid.Column="3" Style="{StaticResource SearchTextBoxStyle}" Text="{Binding Path=LastNameSearch}" />
+            <TextBox Grid.Row="1" Grid.Column="3" Style="{StaticResource SearchTextBoxStyle}" Text="{Binding Path=LastNameSearch, UpdateSourceTrigger=PropertyChanged}" />
             <Label Grid.Row="2" Grid.Column="0" Content="Exam Date Start" />
             <wpfTool:DateTimePicker Grid.Row="2" Grid.Column="1" Style="{StaticResource DateTimePickerStyle}" Value="{Binding Path=ExamDateStart}" />
             <Label Grid.Row="2" Grid.Column="2" Content="Exam Date End" />

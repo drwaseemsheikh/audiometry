@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\SoftwareProjects\AudiometryApplication\trunk\src\Audiometry\Audiometry\obj\x86\Debug\
+D:\GitHub\audiometry\Audiometry\obj\x86\Debug\
 Audiometry
 none
 false
 DEBUG;TRACE
-E:\SoftwareProjects\AudiometryApplication\trunk\src\Audiometry\Audiometry\View\App.xaml
+D:\GitHub\audiometry\Audiometry\View\App.xaml
 4-1719084073
 
-1172074837637
-40-316927987
+117-1327616238
+35-123826293
 View\RegistrationWindow.xaml;View\LoginWindow.xaml;View\MainWindow.xaml;View\SearchWindow.xaml;
 
 False

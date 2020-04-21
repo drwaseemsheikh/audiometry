@@ -9,10 +9,10 @@ namespace Audiometry.Validation
         {
             string numStr = (string)value;
 
-            if (!String.IsNullOrEmpty(numStr))
+            if (numStr != null)
             {
                 uint num = 0;
-                string validationError = "Invalid input. Account number must be a number.";
+                string validationError = "A valid account number must be provided. Valid values include all positive numbers.";
 
                 if (!uint.TryParse(numStr, out num))
                 {
