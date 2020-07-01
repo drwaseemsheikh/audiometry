@@ -16,4 +16,6 @@ Audiometry provides a unified and uniform interface for storing, processing, and
 
 # Documentation
 
-A description of the software can be found at https://github.com/drwaseemsheikh/audiometry/blob/master/docs/full_paper.pdf, API docs can be found at https://drwaseemsheikh.github.io/audiometry/
+A description of the software can be found at https://github.com/drwaseemsheikh/audiometry/blob/master/docs/full_paper.pdf.
+API docs can be found at https://drwaseemsheikh.github.io/audiometry/.
+The JOSS paper is available at [![DOI](https://joss.theoj.org/papers/10.21105/joss.02016/status.svg)](https://doi.org/10.21105/joss.02016).
